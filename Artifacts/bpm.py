@@ -85,6 +85,11 @@ def _constrain_bpm(bpm: float, min_bpm: float, max_bpm: float) -> float:
         bpm *= 2
     while bpm > max_bpm:
         bpm /= 2
+    # Prefer the octave closest to the range centre to resolve half/double-tempo ambiguity.
+    # e.g. with range [40, 208], centre=124: 45 → 90 (closer to 124), 90 stays 90.
+    mid = (min_bpm + max_bpm) / 2
+    if bpm * 2 <= max_bpm and abs(bpm * 2 - mid) < abs(bpm - mid):
+        bpm *= 2
     return max(min_bpm, min(max_bpm, bpm))
 
 
