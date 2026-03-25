@@ -46,8 +46,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # ── constants ────────────────────────────────────────────────────────────────
 
-_SR        = 22050
-_HOP       = 512
+_SR        = 11025   # half rate — sufficient for structure detection, 2x faster load
+_HOP       = 2048    # larger hop → fewer frames → recurrence matrix 64x smaller
 _COLORS    = [
     "#4a90d9", "#e8734a", "#7aff7a", "#f5c842", "#ce93d8",
     "#80cbc4", "#ff8a65", "#aed581", "#ef9a9a", "#4fc3f7",
@@ -60,7 +60,8 @@ _SIM_THRESH = 0.82   # cosine similarity to consider two segments "the same"
 def _extract_features(y, sr, hop=_HOP):
     """Return stacked MFCC + chroma feature matrix, column = one frame."""
     mfcc   = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=13, hop_length=hop)
-    chroma = librosa.feature.chroma_cqt(y=y, sr=sr, hop_length=hop, bins_per_octave=24)
+    # chroma_stft is STFT-based (much faster than chroma_cqt which uses CQT)
+    chroma = librosa.feature.chroma_stft(y=y, sr=sr, hop_length=hop)
 
     # Normalise each feature type independently then stack
     mfcc_n   = normalize(mfcc,   norm="l2", axis=1)
@@ -79,8 +80,7 @@ def _detect_boundaries(features, sr, hop, n_sections):
     R = librosa.segment.recurrence_matrix(
         features, width=3, mode="affinity", sym=True
     )
-    # Enhance diagonals (checkerboard kernel highlights change points)
-    R_filtered = librosa.segment.path_enhance(R, n=15)
+    # path_enhance removed — it was computed but never used, and is O(T²)
 
     # Agglomerative boundary detection on the Laplacian eigenvectors
     bounds_frames = librosa.segment.agglomerative(features, k=n_sections)
