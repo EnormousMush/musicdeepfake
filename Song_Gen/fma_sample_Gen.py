@@ -4,20 +4,27 @@ import os
 import time
 import re
 
-GENRE_URL = "https://freemusicarchive.org/genre/Jazz_Vocal/"
+GENRE_URL = "https://freemusicarchive.org/genre/Jazz_Vocal"
 DOWNLOAD_DIR = "fma_jazz_vocal"
-TOTAL_TRACKS = 5
+TOTAL_TRACKS = 100
 TRACKS_PER_PAGE = 20
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+}
+
+# Paste your browser cookies here after logging into freemusicarchive.org
+# DevTools → Application → Cookies → freemusicarchive.org
+COOKIES = {
+    "free_music_archive_session": "eyJpdiI6Im1QRE41MVVSdzBUbVFrKzBxTFEyc0E9PSIsInZhbHVlIjoia2lqZ0Y0SkM1dkxiNlhoZi9NcGRqRURCOWJOR3RkWXNHZnlRTitaM0NrVHlSZ0hOeTAzMkpRUXNod0hSZmd3c0ZpTG9LYjNxbk56bzJBZTJETHdXY2N3b1A0QVUzZHhMbTkvVHo0OXJhVlVsSUpTaEN5TmNDMlZXQWgvUXZVQWkiLCJtYWMiOiI1OGJiN2VhNjY1MjZhMmFlYmIzYTM3ZDIxMzYzOTdjY2M5YmE2NmM1MzI3MjlhMzdlNmJjNTM2N2MzZDU0NDVkIn0%3D",
+    "XSRF-TOKEN": "eyJpdiI6IlRHR2dBdGhTS0xKUTEwSXZ4RXNaZmc9PSIsInZhbHVlIjoiUkdkb0pzam0wbi92akM0NUxzZkFBNWNIZ3ZDZm83d3BHQ2QvTG5BSW5rOVdzRzhDYTZNR3J3bkU3ZXl2RlNkdmFvWUVCeUhwUGM4R1lLeWVGNHFlaHVJMnp4MzlZV0NUM3hxajBGTEJoL1g0R0t0N1IvVlY1ektwcTN6OWFWZGkiLCJtYWMiOiI0ZjExN2UyMDBhZDAyYmYwMWJjZWMwMGZkNTZlZmIyZDBkYWEzZTY1ZDAxN2JmN2VmMmQ4OGZiNzA5NWIxYzIzIn0%3D",
 }
 
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
 
 def get_track_links_from_page(page_num):
     """Scrape track page URLs from a genre listing page."""
-    url = f"{GENRE_URL}?page={page_num}"
-    resp = requests.get(url, headers=HEADERS)
+    url = f"{GENRE_URL}?pageSize=20&page={page_num}&search-genre=Jazz%3A%20Vocal&sort=_score&d=0"
+    resp = requests.get(url, headers=HEADERS, cookies=COOKIES)
     soup = BeautifulSoup(resp.text, "html.parser")
 
     track_links = []
@@ -38,7 +45,7 @@ def get_download_url(track_page_url):
 
 def download_track(download_url, filename):
     """Download the MP3 file."""
-    resp = requests.get(download_url, headers=HEADERS, stream=True, allow_redirects=True)
+    resp = requests.get(download_url, headers=HEADERS, cookies=COOKIES, stream=True, allow_redirects=True)
     if resp.status_code == 200 and "audio" in resp.headers.get("Content-Type", ""):
         with open(filename, "wb") as f:
             for chunk in resp.iter_content(chunk_size=8192):
