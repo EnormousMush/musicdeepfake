@@ -1,0 +1,23 @@
+# Core audio analysis
+librosa
+numpy
+scipy
+matplotlib
+
+# Song structure detection
+scikit-learn
+
+# BPM estimation (recommended backend; requires numpy<2.0 due to madmom 0.16.x)
+# If using numpy>=2.0, bpm.py patches the deprecated aliases at runtime.
+madmom
+
+# Web scraping (fma_sample_Gen.py — FMA dataset download)
+requests
+beautifulsoup4
+
+# Audio clipping (fma_sample_30s.py — extract 30s clips)
+pydub
+
+# Instrument detection (instruments.py — optional, requires GPU recommended)
+torch
+transformers
