@@ -10,7 +10,6 @@ Panels:
 Metrics computed (printed + embedded):
   ── From original file ──
   • Centroid Mean (Hz)        — average brightness
-  • Spectral Flatness Mean    — tonal vs noise-like (see 3_noisiness.py too)
 
   ── NEW: added for AI vs human analysis ──
   • Centroid Std (Hz)         — brightness variation over time
@@ -62,8 +61,6 @@ def analyze_spectral(audio_path: str, sr_target: int = 22050, hop_length: int = 
     spec_rolloff   = librosa.feature.spectral_rolloff(y=y, sr=sr, hop_length=hop_length,
                                                        roll_percent=0.85)[0]
     spec_bandwidth = librosa.feature.spectral_bandwidth(y=y, sr=sr, hop_length=hop_length)[0]
-    spec_flatness  = librosa.feature.spectral_flatness(y=y, hop_length=hop_length)[0]
-
     # ── NEW metrics ───────────────────────────────────────────────────────────
     # Spectral contrast (7 sub-bands by default)
     spec_contrast = librosa.feature.spectral_contrast(y=y, sr=sr, hop_length=hop_length)
@@ -92,7 +89,6 @@ def analyze_spectral(audio_path: str, sr_target: int = 22050, hop_length: int = 
         "bandwidth_mean_hz":      round(float(np.mean(spec_bandwidth)), 1),
         "bandwidth_std_hz":       round(float(np.std(spec_bandwidth)), 1),
         "centroid_rolloff_ratio":  round(float(centroid_rolloff_ratio), 4),
-        "spec_flat_mean":          round(float(np.mean(spec_flatness)), 4),
         "hf_energy_ratio":         round(float(hf_energy_ratio), 4),
         "spectral_contrast_bands": [round(float(c), 2) for c in contrast_band_means],
         "mel_band_temporal_std":   round(float(mel_band_temporal_std), 2),
@@ -163,7 +159,6 @@ def plot_spectral(data: dict, audio_path: str, output_path: str = None):
         ("Bandwidth Mean",        f"{stats['bandwidth_mean_hz']} Hz"),
         ("Bandwidth Std",         f"{stats['bandwidth_std_hz']} Hz"),
         ("Centroid/Rolloff Ratio",f"{stats['centroid_rolloff_ratio']}"),
-        ("Spectral Flatness",     f"{stats['spec_flat_mean']}"),
         ("HF Energy Ratio (>8k)", f"{stats['hf_energy_ratio']}   ← abrupt cutoff = codec artifact"),
         ("Mel-Band Temporal Std",  f"{stats['mel_band_temporal_std']}   ← low = static texture (AI trait)"),
         ("Spectral Contrast",      contrast_str),

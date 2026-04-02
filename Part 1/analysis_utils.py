@@ -77,7 +77,6 @@ def save_or_show(fig, output_path):
                     facecolor=fig.get_facecolor())
         print(f"  ✓ Saved → {output_path}")
     else:
-        matplotlib.use("TkAgg")
         plt.show()
     plt.close()
 
