@@ -18,7 +18,7 @@ def estimate_key(audio_path: str):
     Returns (best_key, best_corr, alt_key, alt_corr).
     alt_key is set if a second key has correlation within 90% of the best.
     """
-    y, sr = librosa.load(audio_path, sr=22050, mono=True)
+    y, sr = librosa.load(audio_path, sr=11025, mono=True)
 
     # Isolate harmonic component — removes drums/transients that pollute chroma
     y_harmonic, _ = librosa.effects.hpss(y, margin=4)
