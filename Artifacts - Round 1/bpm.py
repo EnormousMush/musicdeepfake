@@ -241,6 +241,41 @@ def estimate_bpm(
     return _estimate_bpm_tempo(audio_path, prior_bpm or 120.0, min_bpm, max_bpm)
 
 
+def analyze_rhythm(
+    audio_path: str,
+    prior_bpm: Optional[float] = 120.0,
+    method: Optional[str] = None,
+    min_bpm: float = DEFAULT_MIN_BPM,
+    max_bpm: float = DEFAULT_MAX_BPM,
+) -> dict:
+    """
+    Estimate BPM, duration, and beat count in a single call.
+
+    Returns
+    -------
+    dict with keys:
+        bpm (float), duration_s (float), num_beats (int)
+    """
+    y, sr = _load_for_rhythm(audio_path)
+    duration = librosa.get_duration(y=y, sr=sr)
+
+    prior = _uniform_prior(min_bpm, max_bpm)
+    try:
+        _, beat_frames = librosa.beat.beat_track(y=y, sr=sr, prior=prior) if prior is not None \
+            else librosa.beat.beat_track(y=y, sr=sr)
+    except TypeError:
+        _, beat_frames = librosa.beat.beat_track(y=y, sr=sr)
+
+    bpm = estimate_bpm(audio_path, prior_bpm=prior_bpm, method=method,
+                       min_bpm=min_bpm, max_bpm=max_bpm)
+
+    return {
+        "bpm":        round(bpm, 2),
+        "duration_s": round(duration, 2),
+        "num_beats":  int(len(beat_frames)),
+    }
+
+
 def _candidates(bpm: float, min_bpm: float = 40, max_bpm: float = 240) -> list[float]:
     """Return BPM and common half/double variants in plausible range."""
     out = {bpm, bpm / 2, bpm * 2}
@@ -311,14 +346,16 @@ def main():
                 print(f"{x:.1f}")
         return
 
-    bpm = estimate_bpm(
+    result = analyze_rhythm(
         args.audio_path,
         prior_bpm=args.prior,
         method=args.method,
         min_bpm=args.min_bpm,
         max_bpm=args.max_bpm,
     )
-    print(f"{bpm:.2f}")
+    print(f"BPM:       {result['bpm']:.2f}")
+    print(f"Duration:  {result['duration_s']} s")
+    print(f"Beats:     {result['num_beats']}")
 
 
 if __name__ == "__main__":
