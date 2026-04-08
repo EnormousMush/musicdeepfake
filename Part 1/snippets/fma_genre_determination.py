@@ -4,7 +4,7 @@ import pandas as pd
 tracks = pd.read_csv('tracks.csv', index_col=0, header=[0, 1])
 
 # Filter to "small" subset
-small = tracks[tracks[('set', 'subset')] == 'small']
+small = tracks[tracks[('set', 'subset')] == 'large']
 
 # List all genres in small
 print("Genres in 'small':")
