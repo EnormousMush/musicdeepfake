@@ -1,3 +1,12 @@
 .venv/
 __pycache__/
 *.pyc
+*.pyo
+
+# Suno extraction output — audio files are large; never commit them
+Part 1/audio/
+
+# Secrets
+.env
+*.env
+.env.*

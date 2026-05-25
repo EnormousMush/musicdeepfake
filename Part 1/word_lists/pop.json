@@ -1,0 +1,29 @@
+{
+  "subgenres": [
+    "synth-pop", "indie pop", "dance-pop", "electro-pop", "power pop",
+    "dream pop", "art pop", "bedroom pop", "bubblegum pop", "hyperpop"
+  ],
+  "moods": [
+    "upbeat", "bittersweet", "euphoric", "wistful", "carefree",
+    "romantic", "nostalgic", "summery", "heartbroken", "celebratory"
+  ],
+  "descriptors": [
+    "catchy chorus with layered vocal harmonies and reverb",
+    "sparkling synth arpeggios over a four-on-the-floor beat",
+    "polished production with a big hook and bright melody",
+    "drum machine groove with lush synthesizer pads",
+    "punchy bass line and shimmering electric piano",
+    "clap-driven beat with an earworm melodic hook",
+    "breathy lead vocal over chiming guitars and strings",
+    "warm analog synths and driving percussion",
+    "lo-fi drum machine with airy vocals and reverb guitar",
+    "anthemic bridge with soaring harmonies and rising strings"
+  ],
+  "tags": [
+    ["pop", "synth", "vocals"],
+    ["pop", "dance", "electronic"],
+    ["pop", "indie", "dreamy"],
+    ["pop", "upbeat", "radio"],
+    ["pop", "bedroom", "lo-fi"]
+  ]
+}

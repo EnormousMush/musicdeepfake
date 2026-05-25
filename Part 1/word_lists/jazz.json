@@ -1,0 +1,29 @@
+{
+  "subgenres": [
+    "bebop", "cool jazz", "fusion", "smooth jazz", "hard bop",
+    "free jazz", "latin jazz", "swing", "modal jazz", "post-bop"
+  ],
+  "moods": [
+    "late-night", "melancholic", "uplifting", "relaxed", "energetic",
+    "nostalgic", "romantic", "brooding", "meditative", "playful"
+  ],
+  "descriptors": [
+    "saxophone and piano trio",
+    "double bass and brushed drums",
+    "muted trumpet quartet",
+    "solo piano with walking bass",
+    "flute and rhythm section",
+    "vibraphone and guitar",
+    "big band brass section",
+    "organ trio with Hammond B3",
+    "acoustic guitar and upright bass",
+    "woodwind ensemble"
+  ],
+  "tags": [
+    ["jazz", "saxophone", "piano"],
+    ["jazz", "trumpet", "swing"],
+    ["jazz", "bass", "drums"],
+    ["jazz", "guitar", "bossa nova"],
+    ["jazz", "fusion", "electric"]
+  ]
+}

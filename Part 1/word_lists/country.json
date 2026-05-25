@@ -1,0 +1,29 @@
+{
+  "subgenres": [
+    "classic country", "outlaw country", "country rock", "bluegrass", "Americana",
+    "alt-country", "honky-tonk", "red dirt country", "folk country", "country pop"
+  ],
+  "moods": [
+    "nostalgic", "heartfelt", "bittersweet", "joyful", "lonesome",
+    "celebratory", "melancholic", "earthy", "sentimental", "defiant"
+  ],
+  "descriptors": [
+    "acoustic guitar and fiddle with pedal steel guitar",
+    "banjo and mandolin over a rolling bluegrass groove",
+    "storytelling vocals with lap steel and fingerpicked guitar",
+    "dobro and rhythm guitar with brushed drums",
+    "honky-tonk piano and shuffling snare over walking bass",
+    "pedal steel weeping over strummed acoustic and standup bass",
+    "twin fiddles in harmony with twangy Telecaster",
+    "fingerstyle acoustic guitar with close-mic'ed vocal warmth",
+    "country-rock electric guitar over a driving 4/4 backbeat",
+    "bluegrass flat-picking with rapid-fire banjo rolls"
+  ],
+  "tags": [
+    ["country", "guitar", "fiddle"],
+    ["country", "bluegrass", "banjo"],
+    ["country", "outlaw", "Americana"],
+    ["country", "pedal steel", "acoustic"],
+    ["country", "honky-tonk", "classic"]
+  ]
+}

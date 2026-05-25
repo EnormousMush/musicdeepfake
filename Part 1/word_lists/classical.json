@@ -1,0 +1,29 @@
+{
+  "subgenres": [
+    "baroque", "romantic", "contemporary classical", "minimalist", "neoclassical",
+    "impressionist", "chamber music", "symphonic", "early music", "modern classical"
+  ],
+  "moods": [
+    "majestic", "serene", "contemplative", "dramatic", "ethereal",
+    "melancholic", "triumphant", "intimate", "tense", "transcendent"
+  ],
+  "descriptors": [
+    "full string orchestra with sweeping melodic lines",
+    "solo piano with delicate chamber ensemble accompaniment",
+    "woodwind and brass choir with tympani",
+    "string quartet in close four-part harmony",
+    "harpsichord and basso continuo with florid ornamentation",
+    "solo violin over lush orchestral backing",
+    "oboe and flute duet with pizzicato strings",
+    "cello sonata with expressive vibrato and dynamic range",
+    "pipe organ with resonant low registers and fugal counterpoint",
+    "minimalist piano ostinato with slow-moving string layers"
+  ],
+  "tags": [
+    ["classical", "orchestral", "strings"],
+    ["classical", "piano", "solo"],
+    ["classical", "baroque", "harpsichord"],
+    ["classical", "chamber", "quartet"],
+    ["classical", "minimalist", "contemporary"]
+  ]
+}

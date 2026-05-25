@@ -11,7 +11,7 @@ scikit-learn
 # If using numpy>=2.0, bpm.py patches the deprecated aliases at runtime.
 madmom
 
-# Web scraping (fma_sample_Gen.py — FMA dataset download)
+# Web scraping + Suno extraction pipeline (Part 1)
 requests
 beautifulsoup4
 

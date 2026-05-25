@@ -1,0 +1,29 @@
+{
+  "subgenres": [
+    "delta blues", "Chicago blues", "Texas blues", "electric blues", "acoustic blues",
+    "jump blues", "soul blues", "swamp blues", "piedmont blues", "modern blues"
+  ],
+  "moods": [
+    "sorrowful", "soulful", "gritty", "passionate", "laid-back",
+    "yearning", "raw", "emotional", "brooding", "cathartic"
+  ],
+  "descriptors": [
+    "slide guitar and harmonica over a shuffling 12-bar groove",
+    "12-bar chord progression with call-and-response guitar phrases",
+    "electric guitar bends and vibrato over a walking bass line",
+    "fingerpicked acoustic guitar with open-tuned resonance",
+    "wailing harmonica and boogie-woogie piano",
+    "overdriven Stratocaster with a slow, expressive minor blues",
+    "upright bass and brushed snare under a growling guitar",
+    "B.B. King-style single-note lead over a slow 12/8 feel",
+    "National Resonator guitar with raw, unfiltered tone",
+    "three-piece band: guitar, harp, and drums in an intimate setting"
+  ],
+  "tags": [
+    ["blues", "guitar", "harmonica"],
+    ["blues", "electric", "Chicago"],
+    ["blues", "acoustic", "delta"],
+    ["blues", "soul", "groove"],
+    ["blues", "Texas", "shuffle"]
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "subgenres": [
+    "classic rock", "alternative rock", "punk rock", "indie rock", "hard rock",
+    "grunge", "progressive rock", "psychedelic rock", "garage rock", "glam rock"
+  ],
+  "moods": [
+    "energetic", "rebellious", "melancholic", "triumphant", "gritty",
+    "anthemic", "dreamy", "raw", "powerful", "introspective"
+  ],
+  "descriptors": [
+    "electric guitar riffs and power chords over a driving drum beat",
+    "distorted lead guitar solo with crunchy rhythm section",
+    "dual guitar harmonics and thundering bass lines",
+    "arena-scale wall of sound with layered guitars",
+    "palm-muted riff with crashing cymbals and punchy bass",
+    "jangly clean guitar and melodic bass line",
+    "overdriven power trio with raw live-room energy",
+    "whammy-bar dive bombs and reverb-soaked chords",
+    "drop-tuned rhythms and syncopated drum pattern",
+    "fingerpicked arpeggios building into a full-band climax"
+  ],
+  "tags": [
+    ["rock", "guitar", "electric"],
+    ["rock", "drums", "bass"],
+    ["rock", "punk", "distortion"],
+    ["rock", "indie", "alternative"],
+    ["rock", "classic", "anthem"]
+  ]
+}

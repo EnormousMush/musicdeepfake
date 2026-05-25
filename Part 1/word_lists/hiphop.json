@@ -1,0 +1,29 @@
+{
+  "subgenres": [
+    "boom bap", "trap", "lo-fi hip hop", "conscious hip hop", "drill",
+    "cloud rap", "jazz rap", "hardcore hip hop", "southern hip hop", "alternative hip hop"
+  ],
+  "moods": [
+    "confident", "introspective", "aggressive", "laid-back", "nostalgic",
+    "triumphant", "gritty", "contemplative", "hype", "melancholic"
+  ],
+  "descriptors": [
+    "sampled soul loop chopped over hard-hitting 808 bass and snare",
+    "dusty vinyl sample with boom bap drums and punchy kick",
+    "trap hi-hats and sliding 808 bassline with dark melody",
+    "jazzy chord sample flipped over swung breakbeats",
+    "lo-fi piano loop with vinyl crackle and lazy drums",
+    "orchestral string sample with booming low-end and crisp snare",
+    "synth melody over rapid hi-hat rolls and rattling 808s",
+    "soulful vocal chop with deep sub bass and clap",
+    "grimy horn stabs over a crunchy boom bap pattern",
+    "dreamy synth pad with half-time snare and pitched vocals"
+  ],
+  "tags": [
+    ["hip hop", "rap", "808"],
+    ["hip hop", "trap", "bass"],
+    ["hip hop", "boom bap", "sample"],
+    ["hip hop", "lo-fi", "chill"],
+    ["hip hop", "conscious", "jazz"]
+  ]
+}

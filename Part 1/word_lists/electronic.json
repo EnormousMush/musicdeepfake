@@ -1,0 +1,29 @@
+{
+  "subgenres": [
+    "techno", "house", "ambient", "drum and bass", "dubstep",
+    "trance", "IDM", "synthwave", "electro", "minimal techno"
+  ],
+  "moods": [
+    "hypnotic", "euphoric", "dark", "pulsating", "meditative",
+    "intense", "otherworldly", "driving", "ominous", "transcendent"
+  ],
+  "descriptors": [
+    "four-on-the-floor kick over a modular synthesizer bassline",
+    "atmospheric pads and sequenced melodic arpeggios",
+    "heavy sub-bass wobble with stuttering high-hat patterns",
+    "analog acid line with rapid 16th-note triplets",
+    "glitchy chopped samples with granular synthesis textures",
+    "sweeping filter cutoff and resonant synth stab",
+    "rave-ready breakdown into a punishing drop",
+    "lush ambient drone with slowly evolving harmonic layers",
+    "sidechain-compressed chords and crisp clap-driven groove",
+    "vocoder-processed vocals over a motorik electronic beat"
+  ],
+  "tags": [
+    ["electronic", "synth", "bass"],
+    ["electronic", "techno", "dance"],
+    ["electronic", "ambient", "atmospheric"],
+    ["electronic", "synthwave", "retro"],
+    ["electronic", "drum and bass", "breakbeat"]
+  ]
+}
