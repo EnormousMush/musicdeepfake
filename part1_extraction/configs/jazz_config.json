@@ -2,8 +2,8 @@
   "model": "chirp-v5",
   "api_key_env": "TTAPI_KEY",
   "output_dir": "audio",
-  "manifest_path": "jazz_manifest.csv",
-  "frozen_prompts_path": "jazz_frozen_prompts.csv",
+  "manifest_path": "manifests/jazz_manifest.csv",
+  "frozen_prompts_path": "manifests/jazz_frozen_prompts.csv",
   "word_lists_dir": "word_lists",
 
   "concurrency": {
