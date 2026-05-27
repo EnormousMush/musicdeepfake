@@ -1,0 +1,4 @@
+genre,subgenre,prompt,tags,mv,pair_group
+jazz,bebop,"bebop jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+rock,classic rock,"classic rock, energetic atmosphere, featuring electric guitar riffs and power chords over a driving drum beat","rock, guitar, electric",chirp-v4-5+,rock
+hiphop,boom bap,"boom bap hiphop, confident atmosphere, featuring sampled soul loop chopped over hard-hitting 808 bass and snare","hip hop, rap, 808",chirp-v4-5+,hiphop

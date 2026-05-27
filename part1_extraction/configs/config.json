@@ -1,0 +1,26 @@
+{
+  "model": "chirp-v5",
+  "api_key_env": "TTAPI_KEY",
+  "output_dir": "audio",
+  "manifest_path": "manifest.csv",
+  "frozen_prompts_path": "frozen_prompts.csv",
+  "word_lists_dir": "word_lists",
+
+  "concurrency": {
+    "max_queue": 20,
+    "poll_batch": 50,
+    "download_workers": 4,
+    "cycle_sleep": 10
+  },
+
+  "genres": {
+    "jazz":       { "target_tracks": 3000, "instrumental": true },
+    "rock":       { "target_tracks": 3000, "instrumental": true },
+    "pop":        { "target_tracks": 3000, "instrumental": true },
+    "classical":  { "target_tracks": 2500, "instrumental": true },
+    "electronic": { "target_tracks": 2500, "instrumental": true },
+    "hiphop":     { "target_tracks": 2500, "instrumental": true },
+    "blues":      { "target_tracks": 2500, "instrumental": true },
+    "country":    { "target_tracks": 2500, "instrumental": true }
+  }
+}

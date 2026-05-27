@@ -4,7 +4,7 @@ __pycache__/
 *.pyo
 
 # Suno extraction output — audio files are large; never commit them
-Part 1/audio/
+part1_extraction/audio/
 
 # Secrets
 .env

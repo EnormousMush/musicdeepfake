@@ -1,5 +1,5 @@
 {
-  "model": "chirp-v4-5+",
+  "model": "chirp-v5",
   "api_key_env": "TTAPI_KEY",
   "output_dir": "test_audio",
   "manifest_path": "test_manifest.csv",
@@ -7,15 +7,15 @@
   "word_lists_dir": "word_lists",
 
   "concurrency": {
-    "submit_batch": 2,
+    "max_queue": 3,
     "poll_batch": 10,
     "download_workers": 2,
     "cycle_sleep": 5
   },
 
   "genres": {
-    "jazz":    { "target_tracks": 2, "instrumental": false },
-    "rock":    { "target_tracks": 2, "instrumental": false },
-    "hiphop":  { "target_tracks": 2, "instrumental": false }
+    "jazz":    { "target_tracks": 2, "instrumental": true },
+    "rock":    { "target_tracks": 2, "instrumental": true },
+    "hiphop":  { "target_tracks": 2, "instrumental": true }
   }
 }

@@ -1,0 +1,1501 @@
+genre,subgenre,prompt,tags,mv,pair_group
+jazz,bebop,"bebop jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, melancholic atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, melancholic atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, melancholic atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, melancholic atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, melancholic atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, melancholic atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, melancholic atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, melancholic atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, melancholic atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, melancholic atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, uplifting atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, uplifting atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, uplifting atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, uplifting atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, uplifting atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, uplifting atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, uplifting atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, uplifting atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, uplifting atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, uplifting atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, relaxed atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, relaxed atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, relaxed atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, relaxed atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, relaxed atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, relaxed atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, relaxed atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, relaxed atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, relaxed atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, relaxed atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, energetic atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, energetic atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, energetic atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, energetic atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, energetic atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, energetic atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, energetic atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, energetic atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, energetic atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, energetic atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, nostalgic atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, nostalgic atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, nostalgic atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, nostalgic atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, nostalgic atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, nostalgic atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, nostalgic atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, nostalgic atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, nostalgic atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, nostalgic atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, romantic atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, romantic atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, romantic atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, romantic atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, romantic atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, romantic atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, romantic atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, romantic atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, romantic atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, romantic atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, brooding atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, brooding atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, brooding atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, brooding atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, brooding atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, brooding atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, brooding atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, brooding atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, brooding atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, brooding atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, meditative atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, meditative atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, meditative atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, meditative atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, meditative atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, meditative atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, meditative atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, meditative atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, meditative atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, meditative atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, playful atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, playful atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, playful atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, playful atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, playful atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, playful atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, playful atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, playful atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, playful atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, playful atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, late-night atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, late-night atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, late-night atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, late-night atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, late-night atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, late-night atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, late-night atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, late-night atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, late-night atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, late-night atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, melancholic atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, melancholic atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, melancholic atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, melancholic atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, melancholic atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, melancholic atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, melancholic atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, melancholic atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, melancholic atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, melancholic atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, uplifting atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, uplifting atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, uplifting atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, uplifting atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, uplifting atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, uplifting atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, uplifting atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, uplifting atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, uplifting atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, uplifting atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, relaxed atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, relaxed atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, relaxed atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, relaxed atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, relaxed atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, relaxed atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, relaxed atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, relaxed atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, relaxed atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, relaxed atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, energetic atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, energetic atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, energetic atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, energetic atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, energetic atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, energetic atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, energetic atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, energetic atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, energetic atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, energetic atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, nostalgic atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, nostalgic atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, nostalgic atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, nostalgic atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, nostalgic atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, nostalgic atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, nostalgic atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, nostalgic atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, nostalgic atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, nostalgic atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, romantic atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, romantic atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, romantic atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, romantic atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, romantic atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, romantic atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, romantic atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, romantic atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, romantic atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, romantic atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, brooding atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, brooding atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, brooding atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, brooding atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, brooding atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, brooding atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, brooding atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, brooding atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, brooding atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, brooding atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, meditative atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, meditative atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, meditative atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, meditative atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, meditative atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, meditative atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, meditative atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, meditative atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, meditative atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, meditative atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, playful atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, playful atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, playful atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, playful atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, playful atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, playful atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, playful atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, playful atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, playful atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, playful atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, late-night atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, late-night atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, late-night atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, late-night atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, late-night atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, late-night atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, late-night atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, late-night atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, late-night atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, late-night atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, melancholic atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, melancholic atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, melancholic atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, melancholic atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, melancholic atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, melancholic atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, melancholic atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, melancholic atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, melancholic atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, melancholic atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, uplifting atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, uplifting atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, uplifting atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, uplifting atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, uplifting atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, uplifting atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, uplifting atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, uplifting atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, uplifting atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, uplifting atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, relaxed atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, relaxed atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, relaxed atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, relaxed atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, relaxed atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, relaxed atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, relaxed atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, relaxed atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, relaxed atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, relaxed atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, energetic atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, energetic atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, energetic atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, energetic atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, energetic atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, energetic atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, energetic atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, energetic atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, energetic atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, energetic atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, nostalgic atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, nostalgic atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, nostalgic atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, nostalgic atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, nostalgic atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, nostalgic atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, nostalgic atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, nostalgic atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, nostalgic atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, nostalgic atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, romantic atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, romantic atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, romantic atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, romantic atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, romantic atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, romantic atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, romantic atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, romantic atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, romantic atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, romantic atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, brooding atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, brooding atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, brooding atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, brooding atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, brooding atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, brooding atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, brooding atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, brooding atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, brooding atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, brooding atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, meditative atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, meditative atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, meditative atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, meditative atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, meditative atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, meditative atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, meditative atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, meditative atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, meditative atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, meditative atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, playful atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, playful atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, playful atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, playful atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, playful atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, playful atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, playful atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, playful atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, playful atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, playful atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, late-night atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, late-night atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, late-night atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, late-night atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, late-night atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, late-night atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, late-night atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, late-night atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, late-night atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, late-night atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, melancholic atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, melancholic atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, melancholic atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, melancholic atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, melancholic atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, melancholic atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, melancholic atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, melancholic atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, melancholic atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, melancholic atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, uplifting atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, uplifting atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, uplifting atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, uplifting atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, uplifting atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, uplifting atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, uplifting atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, uplifting atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, uplifting atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, uplifting atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, relaxed atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, relaxed atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, relaxed atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, relaxed atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, relaxed atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, relaxed atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, relaxed atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, relaxed atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, relaxed atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, relaxed atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, energetic atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, energetic atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, energetic atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, energetic atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, energetic atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, energetic atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, energetic atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, energetic atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, energetic atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, energetic atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, nostalgic atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, nostalgic atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, nostalgic atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, nostalgic atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, nostalgic atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, nostalgic atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, nostalgic atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, nostalgic atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, nostalgic atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, nostalgic atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, romantic atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, romantic atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, romantic atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, romantic atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, romantic atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, romantic atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, romantic atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, romantic atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, romantic atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, romantic atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, brooding atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, brooding atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, brooding atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, brooding atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, brooding atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, brooding atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, brooding atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, brooding atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, brooding atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, brooding atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, meditative atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, meditative atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, meditative atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, meditative atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, meditative atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, meditative atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, meditative atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, meditative atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, meditative atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, meditative atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, playful atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, playful atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, playful atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, playful atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, playful atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, playful atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, playful atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, playful atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, playful atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, playful atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, late-night atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, late-night atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, late-night atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, late-night atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, late-night atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, late-night atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, late-night atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, late-night atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, late-night atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, late-night atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, melancholic atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, melancholic atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, melancholic atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, melancholic atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, melancholic atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, melancholic atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, melancholic atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, melancholic atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, melancholic atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, melancholic atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, uplifting atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, uplifting atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, uplifting atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, uplifting atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, uplifting atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, uplifting atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, uplifting atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, uplifting atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, uplifting atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, uplifting atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, relaxed atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, relaxed atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, relaxed atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, relaxed atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, relaxed atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, relaxed atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, relaxed atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, relaxed atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, relaxed atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, relaxed atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, energetic atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, energetic atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, energetic atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, energetic atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, energetic atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, energetic atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, energetic atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, energetic atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, energetic atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, energetic atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, nostalgic atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, nostalgic atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, nostalgic atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, nostalgic atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, nostalgic atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, nostalgic atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, nostalgic atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, nostalgic atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, nostalgic atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, nostalgic atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, romantic atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, romantic atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, romantic atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, romantic atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, romantic atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, romantic atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, romantic atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, romantic atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, romantic atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, romantic atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, brooding atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, brooding atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, brooding atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, brooding atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, brooding atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, brooding atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, brooding atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, brooding atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, brooding atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, brooding atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, meditative atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, meditative atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, meditative atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, meditative atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, meditative atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, meditative atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, meditative atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, meditative atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, meditative atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, meditative atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, playful atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, playful atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, playful atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, playful atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, playful atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, playful atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, playful atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, playful atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, playful atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, playful atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, late-night atmosphere, featuring vibraphone and guitar","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, late-night atmosphere, featuring vibraphone and guitar","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, late-night atmosphere, featuring vibraphone and guitar","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, late-night atmosphere, featuring vibraphone and guitar","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, late-night atmosphere, featuring vibraphone and guitar","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, late-night atmosphere, featuring vibraphone and guitar","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, late-night atmosphere, featuring vibraphone and guitar","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, late-night atmosphere, featuring vibraphone and guitar","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, late-night atmosphere, featuring vibraphone and guitar","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, late-night atmosphere, featuring vibraphone and guitar","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, melancholic atmosphere, featuring vibraphone and guitar","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, melancholic atmosphere, featuring vibraphone and guitar","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, melancholic atmosphere, featuring vibraphone and guitar","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, melancholic atmosphere, featuring vibraphone and guitar","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, melancholic atmosphere, featuring vibraphone and guitar","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, melancholic atmosphere, featuring vibraphone and guitar","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, melancholic atmosphere, featuring vibraphone and guitar","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, melancholic atmosphere, featuring vibraphone and guitar","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, melancholic atmosphere, featuring vibraphone and guitar","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, melancholic atmosphere, featuring vibraphone and guitar","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, uplifting atmosphere, featuring vibraphone and guitar","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, uplifting atmosphere, featuring vibraphone and guitar","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, uplifting atmosphere, featuring vibraphone and guitar","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, uplifting atmosphere, featuring vibraphone and guitar","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, uplifting atmosphere, featuring vibraphone and guitar","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, uplifting atmosphere, featuring vibraphone and guitar","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, uplifting atmosphere, featuring vibraphone and guitar","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, uplifting atmosphere, featuring vibraphone and guitar","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, uplifting atmosphere, featuring vibraphone and guitar","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, uplifting atmosphere, featuring vibraphone and guitar","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, relaxed atmosphere, featuring vibraphone and guitar","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, relaxed atmosphere, featuring vibraphone and guitar","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, relaxed atmosphere, featuring vibraphone and guitar","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, relaxed atmosphere, featuring vibraphone and guitar","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, relaxed atmosphere, featuring vibraphone and guitar","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, relaxed atmosphere, featuring vibraphone and guitar","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, relaxed atmosphere, featuring vibraphone and guitar","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, relaxed atmosphere, featuring vibraphone and guitar","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, relaxed atmosphere, featuring vibraphone and guitar","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, relaxed atmosphere, featuring vibraphone and guitar","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, energetic atmosphere, featuring vibraphone and guitar","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, energetic atmosphere, featuring vibraphone and guitar","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, energetic atmosphere, featuring vibraphone and guitar","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, energetic atmosphere, featuring vibraphone and guitar","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, energetic atmosphere, featuring vibraphone and guitar","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, energetic atmosphere, featuring vibraphone and guitar","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, energetic atmosphere, featuring vibraphone and guitar","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, energetic atmosphere, featuring vibraphone and guitar","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, energetic atmosphere, featuring vibraphone and guitar","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, energetic atmosphere, featuring vibraphone and guitar","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, nostalgic atmosphere, featuring vibraphone and guitar","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, nostalgic atmosphere, featuring vibraphone and guitar","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, nostalgic atmosphere, featuring vibraphone and guitar","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, nostalgic atmosphere, featuring vibraphone and guitar","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, nostalgic atmosphere, featuring vibraphone and guitar","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, nostalgic atmosphere, featuring vibraphone and guitar","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, nostalgic atmosphere, featuring vibraphone and guitar","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, nostalgic atmosphere, featuring vibraphone and guitar","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, nostalgic atmosphere, featuring vibraphone and guitar","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, nostalgic atmosphere, featuring vibraphone and guitar","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, romantic atmosphere, featuring vibraphone and guitar","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, romantic atmosphere, featuring vibraphone and guitar","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, romantic atmosphere, featuring vibraphone and guitar","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, romantic atmosphere, featuring vibraphone and guitar","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, romantic atmosphere, featuring vibraphone and guitar","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, romantic atmosphere, featuring vibraphone and guitar","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, romantic atmosphere, featuring vibraphone and guitar","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, romantic atmosphere, featuring vibraphone and guitar","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, romantic atmosphere, featuring vibraphone and guitar","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, romantic atmosphere, featuring vibraphone and guitar","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, brooding atmosphere, featuring vibraphone and guitar","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, brooding atmosphere, featuring vibraphone and guitar","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, brooding atmosphere, featuring vibraphone and guitar","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, brooding atmosphere, featuring vibraphone and guitar","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, brooding atmosphere, featuring vibraphone and guitar","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, brooding atmosphere, featuring vibraphone and guitar","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, brooding atmosphere, featuring vibraphone and guitar","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, brooding atmosphere, featuring vibraphone and guitar","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, brooding atmosphere, featuring vibraphone and guitar","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, brooding atmosphere, featuring vibraphone and guitar","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, meditative atmosphere, featuring vibraphone and guitar","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, meditative atmosphere, featuring vibraphone and guitar","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, meditative atmosphere, featuring vibraphone and guitar","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, meditative atmosphere, featuring vibraphone and guitar","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, meditative atmosphere, featuring vibraphone and guitar","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, meditative atmosphere, featuring vibraphone and guitar","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, meditative atmosphere, featuring vibraphone and guitar","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, meditative atmosphere, featuring vibraphone and guitar","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, meditative atmosphere, featuring vibraphone and guitar","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, meditative atmosphere, featuring vibraphone and guitar","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, playful atmosphere, featuring vibraphone and guitar","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, playful atmosphere, featuring vibraphone and guitar","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, playful atmosphere, featuring vibraphone and guitar","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, playful atmosphere, featuring vibraphone and guitar","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, playful atmosphere, featuring vibraphone and guitar","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, playful atmosphere, featuring vibraphone and guitar","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, playful atmosphere, featuring vibraphone and guitar","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, playful atmosphere, featuring vibraphone and guitar","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, playful atmosphere, featuring vibraphone and guitar","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, playful atmosphere, featuring vibraphone and guitar","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, late-night atmosphere, featuring big band brass section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, late-night atmosphere, featuring big band brass section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, late-night atmosphere, featuring big band brass section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, late-night atmosphere, featuring big band brass section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, late-night atmosphere, featuring big band brass section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, late-night atmosphere, featuring big band brass section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, late-night atmosphere, featuring big band brass section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, late-night atmosphere, featuring big band brass section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, late-night atmosphere, featuring big band brass section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, late-night atmosphere, featuring big band brass section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, melancholic atmosphere, featuring big band brass section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, melancholic atmosphere, featuring big band brass section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, melancholic atmosphere, featuring big band brass section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, melancholic atmosphere, featuring big band brass section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, melancholic atmosphere, featuring big band brass section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, melancholic atmosphere, featuring big band brass section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, melancholic atmosphere, featuring big band brass section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, melancholic atmosphere, featuring big band brass section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, melancholic atmosphere, featuring big band brass section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, melancholic atmosphere, featuring big band brass section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, uplifting atmosphere, featuring big band brass section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, uplifting atmosphere, featuring big band brass section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, uplifting atmosphere, featuring big band brass section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, uplifting atmosphere, featuring big band brass section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, uplifting atmosphere, featuring big band brass section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, uplifting atmosphere, featuring big band brass section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, uplifting atmosphere, featuring big band brass section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, uplifting atmosphere, featuring big band brass section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, uplifting atmosphere, featuring big band brass section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, uplifting atmosphere, featuring big band brass section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, relaxed atmosphere, featuring big band brass section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, relaxed atmosphere, featuring big band brass section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, relaxed atmosphere, featuring big band brass section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, relaxed atmosphere, featuring big band brass section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, relaxed atmosphere, featuring big band brass section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, relaxed atmosphere, featuring big band brass section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, relaxed atmosphere, featuring big band brass section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, relaxed atmosphere, featuring big band brass section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, relaxed atmosphere, featuring big band brass section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, relaxed atmosphere, featuring big band brass section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, energetic atmosphere, featuring big band brass section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, energetic atmosphere, featuring big band brass section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, energetic atmosphere, featuring big band brass section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, energetic atmosphere, featuring big band brass section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, energetic atmosphere, featuring big band brass section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, energetic atmosphere, featuring big band brass section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, energetic atmosphere, featuring big band brass section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, energetic atmosphere, featuring big band brass section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, energetic atmosphere, featuring big band brass section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, energetic atmosphere, featuring big band brass section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, nostalgic atmosphere, featuring big band brass section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, nostalgic atmosphere, featuring big band brass section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, nostalgic atmosphere, featuring big band brass section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, nostalgic atmosphere, featuring big band brass section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, nostalgic atmosphere, featuring big band brass section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, nostalgic atmosphere, featuring big band brass section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, nostalgic atmosphere, featuring big band brass section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, nostalgic atmosphere, featuring big band brass section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, nostalgic atmosphere, featuring big band brass section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, nostalgic atmosphere, featuring big band brass section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, romantic atmosphere, featuring big band brass section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, romantic atmosphere, featuring big band brass section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, romantic atmosphere, featuring big band brass section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, romantic atmosphere, featuring big band brass section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, romantic atmosphere, featuring big band brass section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, romantic atmosphere, featuring big band brass section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, romantic atmosphere, featuring big band brass section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, romantic atmosphere, featuring big band brass section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, romantic atmosphere, featuring big band brass section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, romantic atmosphere, featuring big band brass section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, brooding atmosphere, featuring big band brass section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, brooding atmosphere, featuring big band brass section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, brooding atmosphere, featuring big band brass section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, brooding atmosphere, featuring big band brass section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, brooding atmosphere, featuring big band brass section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, brooding atmosphere, featuring big band brass section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, brooding atmosphere, featuring big band brass section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, brooding atmosphere, featuring big band brass section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, brooding atmosphere, featuring big band brass section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, brooding atmosphere, featuring big band brass section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, meditative atmosphere, featuring big band brass section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, meditative atmosphere, featuring big band brass section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, meditative atmosphere, featuring big band brass section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, meditative atmosphere, featuring big band brass section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, meditative atmosphere, featuring big band brass section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, meditative atmosphere, featuring big band brass section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, meditative atmosphere, featuring big band brass section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, meditative atmosphere, featuring big band brass section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, meditative atmosphere, featuring big band brass section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, meditative atmosphere, featuring big band brass section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, playful atmosphere, featuring big band brass section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, playful atmosphere, featuring big band brass section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, playful atmosphere, featuring big band brass section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, playful atmosphere, featuring big band brass section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, playful atmosphere, featuring big band brass section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, playful atmosphere, featuring big band brass section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, playful atmosphere, featuring big band brass section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, playful atmosphere, featuring big band brass section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, playful atmosphere, featuring big band brass section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, playful atmosphere, featuring big band brass section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, late-night atmosphere, featuring organ trio with Hammond B3","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, late-night atmosphere, featuring organ trio with Hammond B3","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, late-night atmosphere, featuring organ trio with Hammond B3","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, late-night atmosphere, featuring organ trio with Hammond B3","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, late-night atmosphere, featuring organ trio with Hammond B3","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, late-night atmosphere, featuring organ trio with Hammond B3","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, late-night atmosphere, featuring organ trio with Hammond B3","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, late-night atmosphere, featuring organ trio with Hammond B3","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, late-night atmosphere, featuring organ trio with Hammond B3","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, late-night atmosphere, featuring organ trio with Hammond B3","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, melancholic atmosphere, featuring organ trio with Hammond B3","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, melancholic atmosphere, featuring organ trio with Hammond B3","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, melancholic atmosphere, featuring organ trio with Hammond B3","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, melancholic atmosphere, featuring organ trio with Hammond B3","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, melancholic atmosphere, featuring organ trio with Hammond B3","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, melancholic atmosphere, featuring organ trio with Hammond B3","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, melancholic atmosphere, featuring organ trio with Hammond B3","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, melancholic atmosphere, featuring organ trio with Hammond B3","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, melancholic atmosphere, featuring organ trio with Hammond B3","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, melancholic atmosphere, featuring organ trio with Hammond B3","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, uplifting atmosphere, featuring organ trio with Hammond B3","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, uplifting atmosphere, featuring organ trio with Hammond B3","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, uplifting atmosphere, featuring organ trio with Hammond B3","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, uplifting atmosphere, featuring organ trio with Hammond B3","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, uplifting atmosphere, featuring organ trio with Hammond B3","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, uplifting atmosphere, featuring organ trio with Hammond B3","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, uplifting atmosphere, featuring organ trio with Hammond B3","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, uplifting atmosphere, featuring organ trio with Hammond B3","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, uplifting atmosphere, featuring organ trio with Hammond B3","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, uplifting atmosphere, featuring organ trio with Hammond B3","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, relaxed atmosphere, featuring organ trio with Hammond B3","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, relaxed atmosphere, featuring organ trio with Hammond B3","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, relaxed atmosphere, featuring organ trio with Hammond B3","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, relaxed atmosphere, featuring organ trio with Hammond B3","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, relaxed atmosphere, featuring organ trio with Hammond B3","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, relaxed atmosphere, featuring organ trio with Hammond B3","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, relaxed atmosphere, featuring organ trio with Hammond B3","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, relaxed atmosphere, featuring organ trio with Hammond B3","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, relaxed atmosphere, featuring organ trio with Hammond B3","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, relaxed atmosphere, featuring organ trio with Hammond B3","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, energetic atmosphere, featuring organ trio with Hammond B3","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, energetic atmosphere, featuring organ trio with Hammond B3","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, energetic atmosphere, featuring organ trio with Hammond B3","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, energetic atmosphere, featuring organ trio with Hammond B3","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, energetic atmosphere, featuring organ trio with Hammond B3","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, energetic atmosphere, featuring organ trio with Hammond B3","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, energetic atmosphere, featuring organ trio with Hammond B3","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, energetic atmosphere, featuring organ trio with Hammond B3","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, energetic atmosphere, featuring organ trio with Hammond B3","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, energetic atmosphere, featuring organ trio with Hammond B3","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, nostalgic atmosphere, featuring organ trio with Hammond B3","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, nostalgic atmosphere, featuring organ trio with Hammond B3","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, nostalgic atmosphere, featuring organ trio with Hammond B3","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, nostalgic atmosphere, featuring organ trio with Hammond B3","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, nostalgic atmosphere, featuring organ trio with Hammond B3","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, nostalgic atmosphere, featuring organ trio with Hammond B3","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, nostalgic atmosphere, featuring organ trio with Hammond B3","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, nostalgic atmosphere, featuring organ trio with Hammond B3","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, nostalgic atmosphere, featuring organ trio with Hammond B3","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, nostalgic atmosphere, featuring organ trio with Hammond B3","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, romantic atmosphere, featuring organ trio with Hammond B3","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, romantic atmosphere, featuring organ trio with Hammond B3","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, romantic atmosphere, featuring organ trio with Hammond B3","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, romantic atmosphere, featuring organ trio with Hammond B3","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, romantic atmosphere, featuring organ trio with Hammond B3","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, romantic atmosphere, featuring organ trio with Hammond B3","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, romantic atmosphere, featuring organ trio with Hammond B3","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, romantic atmosphere, featuring organ trio with Hammond B3","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, romantic atmosphere, featuring organ trio with Hammond B3","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, romantic atmosphere, featuring organ trio with Hammond B3","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, brooding atmosphere, featuring organ trio with Hammond B3","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, brooding atmosphere, featuring organ trio with Hammond B3","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, brooding atmosphere, featuring organ trio with Hammond B3","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, brooding atmosphere, featuring organ trio with Hammond B3","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, brooding atmosphere, featuring organ trio with Hammond B3","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, brooding atmosphere, featuring organ trio with Hammond B3","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, brooding atmosphere, featuring organ trio with Hammond B3","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, brooding atmosphere, featuring organ trio with Hammond B3","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, brooding atmosphere, featuring organ trio with Hammond B3","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, brooding atmosphere, featuring organ trio with Hammond B3","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, meditative atmosphere, featuring organ trio with Hammond B3","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, meditative atmosphere, featuring organ trio with Hammond B3","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, meditative atmosphere, featuring organ trio with Hammond B3","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, meditative atmosphere, featuring organ trio with Hammond B3","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, meditative atmosphere, featuring organ trio with Hammond B3","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, meditative atmosphere, featuring organ trio with Hammond B3","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, meditative atmosphere, featuring organ trio with Hammond B3","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, meditative atmosphere, featuring organ trio with Hammond B3","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, meditative atmosphere, featuring organ trio with Hammond B3","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, meditative atmosphere, featuring organ trio with Hammond B3","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, playful atmosphere, featuring organ trio with Hammond B3","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, playful atmosphere, featuring organ trio with Hammond B3","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, playful atmosphere, featuring organ trio with Hammond B3","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, playful atmosphere, featuring organ trio with Hammond B3","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, playful atmosphere, featuring organ trio with Hammond B3","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, playful atmosphere, featuring organ trio with Hammond B3","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, playful atmosphere, featuring organ trio with Hammond B3","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, playful atmosphere, featuring organ trio with Hammond B3","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, playful atmosphere, featuring organ trio with Hammond B3","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, playful atmosphere, featuring organ trio with Hammond B3","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, late-night atmosphere, featuring acoustic guitar and upright bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, late-night atmosphere, featuring acoustic guitar and upright bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, late-night atmosphere, featuring acoustic guitar and upright bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, late-night atmosphere, featuring acoustic guitar and upright bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, late-night atmosphere, featuring acoustic guitar and upright bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, late-night atmosphere, featuring acoustic guitar and upright bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, late-night atmosphere, featuring acoustic guitar and upright bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, late-night atmosphere, featuring acoustic guitar and upright bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, late-night atmosphere, featuring acoustic guitar and upright bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, late-night atmosphere, featuring acoustic guitar and upright bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, melancholic atmosphere, featuring acoustic guitar and upright bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, melancholic atmosphere, featuring acoustic guitar and upright bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, melancholic atmosphere, featuring acoustic guitar and upright bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, melancholic atmosphere, featuring acoustic guitar and upright bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, melancholic atmosphere, featuring acoustic guitar and upright bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, melancholic atmosphere, featuring acoustic guitar and upright bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, melancholic atmosphere, featuring acoustic guitar and upright bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, melancholic atmosphere, featuring acoustic guitar and upright bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, melancholic atmosphere, featuring acoustic guitar and upright bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, melancholic atmosphere, featuring acoustic guitar and upright bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, uplifting atmosphere, featuring acoustic guitar and upright bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, uplifting atmosphere, featuring acoustic guitar and upright bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, uplifting atmosphere, featuring acoustic guitar and upright bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, uplifting atmosphere, featuring acoustic guitar and upright bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, uplifting atmosphere, featuring acoustic guitar and upright bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, uplifting atmosphere, featuring acoustic guitar and upright bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, uplifting atmosphere, featuring acoustic guitar and upright bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, uplifting atmosphere, featuring acoustic guitar and upright bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, uplifting atmosphere, featuring acoustic guitar and upright bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, uplifting atmosphere, featuring acoustic guitar and upright bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, relaxed atmosphere, featuring acoustic guitar and upright bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, relaxed atmosphere, featuring acoustic guitar and upright bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, relaxed atmosphere, featuring acoustic guitar and upright bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, relaxed atmosphere, featuring acoustic guitar and upright bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, relaxed atmosphere, featuring acoustic guitar and upright bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, relaxed atmosphere, featuring acoustic guitar and upright bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, relaxed atmosphere, featuring acoustic guitar and upright bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, relaxed atmosphere, featuring acoustic guitar and upright bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, relaxed atmosphere, featuring acoustic guitar and upright bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, relaxed atmosphere, featuring acoustic guitar and upright bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, energetic atmosphere, featuring acoustic guitar and upright bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, energetic atmosphere, featuring acoustic guitar and upright bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, energetic atmosphere, featuring acoustic guitar and upright bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, energetic atmosphere, featuring acoustic guitar and upright bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, energetic atmosphere, featuring acoustic guitar and upright bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, energetic atmosphere, featuring acoustic guitar and upright bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, energetic atmosphere, featuring acoustic guitar and upright bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, energetic atmosphere, featuring acoustic guitar and upright bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, energetic atmosphere, featuring acoustic guitar and upright bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, energetic atmosphere, featuring acoustic guitar and upright bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, nostalgic atmosphere, featuring acoustic guitar and upright bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, nostalgic atmosphere, featuring acoustic guitar and upright bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, nostalgic atmosphere, featuring acoustic guitar and upright bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, nostalgic atmosphere, featuring acoustic guitar and upright bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, nostalgic atmosphere, featuring acoustic guitar and upright bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, nostalgic atmosphere, featuring acoustic guitar and upright bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, nostalgic atmosphere, featuring acoustic guitar and upright bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, nostalgic atmosphere, featuring acoustic guitar and upright bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, nostalgic atmosphere, featuring acoustic guitar and upright bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, nostalgic atmosphere, featuring acoustic guitar and upright bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, romantic atmosphere, featuring acoustic guitar and upright bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, romantic atmosphere, featuring acoustic guitar and upright bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, romantic atmosphere, featuring acoustic guitar and upright bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, romantic atmosphere, featuring acoustic guitar and upright bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, romantic atmosphere, featuring acoustic guitar and upright bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, romantic atmosphere, featuring acoustic guitar and upright bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, romantic atmosphere, featuring acoustic guitar and upright bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, romantic atmosphere, featuring acoustic guitar and upright bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, romantic atmosphere, featuring acoustic guitar and upright bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, romantic atmosphere, featuring acoustic guitar and upright bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, brooding atmosphere, featuring acoustic guitar and upright bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, brooding atmosphere, featuring acoustic guitar and upright bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, brooding atmosphere, featuring acoustic guitar and upright bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, brooding atmosphere, featuring acoustic guitar and upright bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, brooding atmosphere, featuring acoustic guitar and upright bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, brooding atmosphere, featuring acoustic guitar and upright bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, brooding atmosphere, featuring acoustic guitar and upright bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, brooding atmosphere, featuring acoustic guitar and upright bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, brooding atmosphere, featuring acoustic guitar and upright bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, brooding atmosphere, featuring acoustic guitar and upright bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, meditative atmosphere, featuring acoustic guitar and upright bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, meditative atmosphere, featuring acoustic guitar and upright bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, meditative atmosphere, featuring acoustic guitar and upright bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, meditative atmosphere, featuring acoustic guitar and upright bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, meditative atmosphere, featuring acoustic guitar and upright bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, meditative atmosphere, featuring acoustic guitar and upright bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, meditative atmosphere, featuring acoustic guitar and upright bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, meditative atmosphere, featuring acoustic guitar and upright bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, meditative atmosphere, featuring acoustic guitar and upright bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, meditative atmosphere, featuring acoustic guitar and upright bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, playful atmosphere, featuring acoustic guitar and upright bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, playful atmosphere, featuring acoustic guitar and upright bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, playful atmosphere, featuring acoustic guitar and upright bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, playful atmosphere, featuring acoustic guitar and upright bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, playful atmosphere, featuring acoustic guitar and upright bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, playful atmosphere, featuring acoustic guitar and upright bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, playful atmosphere, featuring acoustic guitar and upright bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, playful atmosphere, featuring acoustic guitar and upright bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, playful atmosphere, featuring acoustic guitar and upright bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, playful atmosphere, featuring acoustic guitar and upright bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, late-night atmosphere, featuring woodwind ensemble","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, late-night atmosphere, featuring woodwind ensemble","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, late-night atmosphere, featuring woodwind ensemble","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, late-night atmosphere, featuring woodwind ensemble","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, late-night atmosphere, featuring woodwind ensemble","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, late-night atmosphere, featuring woodwind ensemble","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, late-night atmosphere, featuring woodwind ensemble","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, late-night atmosphere, featuring woodwind ensemble","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, late-night atmosphere, featuring woodwind ensemble","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, late-night atmosphere, featuring woodwind ensemble","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, melancholic atmosphere, featuring woodwind ensemble","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, melancholic atmosphere, featuring woodwind ensemble","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, melancholic atmosphere, featuring woodwind ensemble","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, melancholic atmosphere, featuring woodwind ensemble","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, melancholic atmosphere, featuring woodwind ensemble","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, melancholic atmosphere, featuring woodwind ensemble","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, melancholic atmosphere, featuring woodwind ensemble","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, melancholic atmosphere, featuring woodwind ensemble","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, melancholic atmosphere, featuring woodwind ensemble","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, melancholic atmosphere, featuring woodwind ensemble","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, uplifting atmosphere, featuring woodwind ensemble","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, uplifting atmosphere, featuring woodwind ensemble","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, uplifting atmosphere, featuring woodwind ensemble","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, uplifting atmosphere, featuring woodwind ensemble","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, uplifting atmosphere, featuring woodwind ensemble","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, uplifting atmosphere, featuring woodwind ensemble","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, uplifting atmosphere, featuring woodwind ensemble","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, uplifting atmosphere, featuring woodwind ensemble","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, uplifting atmosphere, featuring woodwind ensemble","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, uplifting atmosphere, featuring woodwind ensemble","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, relaxed atmosphere, featuring woodwind ensemble","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, relaxed atmosphere, featuring woodwind ensemble","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, relaxed atmosphere, featuring woodwind ensemble","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, relaxed atmosphere, featuring woodwind ensemble","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, relaxed atmosphere, featuring woodwind ensemble","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, relaxed atmosphere, featuring woodwind ensemble","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, relaxed atmosphere, featuring woodwind ensemble","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, relaxed atmosphere, featuring woodwind ensemble","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, relaxed atmosphere, featuring woodwind ensemble","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, relaxed atmosphere, featuring woodwind ensemble","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, energetic atmosphere, featuring woodwind ensemble","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, energetic atmosphere, featuring woodwind ensemble","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, energetic atmosphere, featuring woodwind ensemble","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, energetic atmosphere, featuring woodwind ensemble","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, energetic atmosphere, featuring woodwind ensemble","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, energetic atmosphere, featuring woodwind ensemble","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, energetic atmosphere, featuring woodwind ensemble","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, energetic atmosphere, featuring woodwind ensemble","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, energetic atmosphere, featuring woodwind ensemble","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, energetic atmosphere, featuring woodwind ensemble","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, nostalgic atmosphere, featuring woodwind ensemble","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, nostalgic atmosphere, featuring woodwind ensemble","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, nostalgic atmosphere, featuring woodwind ensemble","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, nostalgic atmosphere, featuring woodwind ensemble","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, nostalgic atmosphere, featuring woodwind ensemble","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, nostalgic atmosphere, featuring woodwind ensemble","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, nostalgic atmosphere, featuring woodwind ensemble","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, nostalgic atmosphere, featuring woodwind ensemble","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, nostalgic atmosphere, featuring woodwind ensemble","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, nostalgic atmosphere, featuring woodwind ensemble","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, romantic atmosphere, featuring woodwind ensemble","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, romantic atmosphere, featuring woodwind ensemble","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, romantic atmosphere, featuring woodwind ensemble","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, romantic atmosphere, featuring woodwind ensemble","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, romantic atmosphere, featuring woodwind ensemble","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, romantic atmosphere, featuring woodwind ensemble","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, romantic atmosphere, featuring woodwind ensemble","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, romantic atmosphere, featuring woodwind ensemble","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, romantic atmosphere, featuring woodwind ensemble","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, romantic atmosphere, featuring woodwind ensemble","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, brooding atmosphere, featuring woodwind ensemble","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, brooding atmosphere, featuring woodwind ensemble","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, brooding atmosphere, featuring woodwind ensemble","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, brooding atmosphere, featuring woodwind ensemble","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, brooding atmosphere, featuring woodwind ensemble","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, brooding atmosphere, featuring woodwind ensemble","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, brooding atmosphere, featuring woodwind ensemble","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, brooding atmosphere, featuring woodwind ensemble","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, brooding atmosphere, featuring woodwind ensemble","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, brooding atmosphere, featuring woodwind ensemble","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, meditative atmosphere, featuring woodwind ensemble","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, meditative atmosphere, featuring woodwind ensemble","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, meditative atmosphere, featuring woodwind ensemble","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, meditative atmosphere, featuring woodwind ensemble","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, meditative atmosphere, featuring woodwind ensemble","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, meditative atmosphere, featuring woodwind ensemble","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, meditative atmosphere, featuring woodwind ensemble","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, meditative atmosphere, featuring woodwind ensemble","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, meditative atmosphere, featuring woodwind ensemble","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, meditative atmosphere, featuring woodwind ensemble","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, playful atmosphere, featuring woodwind ensemble","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, playful atmosphere, featuring woodwind ensemble","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, playful atmosphere, featuring woodwind ensemble","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, playful atmosphere, featuring woodwind ensemble","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, playful atmosphere, featuring woodwind ensemble","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, playful atmosphere, featuring woodwind ensemble","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, playful atmosphere, featuring woodwind ensemble","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, playful atmosphere, featuring woodwind ensemble","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, playful atmosphere, featuring woodwind ensemble","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, playful atmosphere, featuring woodwind ensemble","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, late-night atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, melancholic atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, melancholic atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, melancholic atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, melancholic atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, melancholic atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, melancholic atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, melancholic atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, melancholic atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, melancholic atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, melancholic atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, uplifting atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, uplifting atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, uplifting atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, uplifting atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, uplifting atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, uplifting atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, uplifting atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, uplifting atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, uplifting atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, uplifting atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, relaxed atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, relaxed atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, relaxed atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, relaxed atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, relaxed atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, relaxed atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, relaxed atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, relaxed atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, relaxed atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, relaxed atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, energetic atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, energetic atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, energetic atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, energetic atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, energetic atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, energetic atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, energetic atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, energetic atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, energetic atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, energetic atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, nostalgic atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, nostalgic atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, nostalgic atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, nostalgic atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, nostalgic atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, nostalgic atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, nostalgic atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, nostalgic atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, nostalgic atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, nostalgic atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, romantic atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, romantic atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, romantic atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, romantic atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, romantic atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, romantic atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, romantic atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, romantic atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, romantic atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, romantic atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, brooding atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, brooding atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, brooding atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, brooding atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, brooding atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, brooding atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, brooding atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, brooding atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, brooding atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, brooding atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, meditative atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, meditative atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, meditative atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, meditative atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, meditative atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, meditative atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, meditative atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, meditative atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, meditative atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, meditative atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, playful atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, playful atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, playful atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, playful atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, playful atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, playful atmosphere, featuring saxophone and piano trio","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, playful atmosphere, featuring saxophone and piano trio","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, playful atmosphere, featuring saxophone and piano trio","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, playful atmosphere, featuring saxophone and piano trio","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, playful atmosphere, featuring saxophone and piano trio","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, late-night atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, late-night atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, late-night atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, late-night atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, late-night atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, late-night atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, late-night atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, late-night atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, late-night atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, late-night atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, melancholic atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, melancholic atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, melancholic atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, melancholic atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, melancholic atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, melancholic atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, melancholic atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, melancholic atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, melancholic atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, melancholic atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, uplifting atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, uplifting atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, uplifting atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, uplifting atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, uplifting atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, uplifting atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, uplifting atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, uplifting atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, uplifting atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, uplifting atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, relaxed atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, relaxed atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, relaxed atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, relaxed atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, relaxed atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, relaxed atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, relaxed atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, relaxed atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, relaxed atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, relaxed atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, energetic atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, energetic atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, energetic atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, energetic atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, energetic atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, energetic atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, energetic atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, energetic atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, energetic atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, energetic atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, nostalgic atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, nostalgic atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, nostalgic atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, nostalgic atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, nostalgic atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, nostalgic atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, nostalgic atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, nostalgic atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, nostalgic atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, nostalgic atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, romantic atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, romantic atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, romantic atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, romantic atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, romantic atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, romantic atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, romantic atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, romantic atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, romantic atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, romantic atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, brooding atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, brooding atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, brooding atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, brooding atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, brooding atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, brooding atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, brooding atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, brooding atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, brooding atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, brooding atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, meditative atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, meditative atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, meditative atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, meditative atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, meditative atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, meditative atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, meditative atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, meditative atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, meditative atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, meditative atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, playful atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, playful atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, playful atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, playful atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, playful atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, playful atmosphere, featuring double bass and brushed drums","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, playful atmosphere, featuring double bass and brushed drums","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, playful atmosphere, featuring double bass and brushed drums","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, playful atmosphere, featuring double bass and brushed drums","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, playful atmosphere, featuring double bass and brushed drums","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, late-night atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, late-night atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, late-night atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, late-night atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, late-night atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, late-night atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, late-night atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, late-night atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, late-night atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, late-night atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, melancholic atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, melancholic atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, melancholic atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, melancholic atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, melancholic atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, melancholic atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, melancholic atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, melancholic atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, melancholic atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, melancholic atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, uplifting atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, uplifting atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, uplifting atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, uplifting atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, uplifting atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, uplifting atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, uplifting atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, uplifting atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, uplifting atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, uplifting atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, relaxed atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, relaxed atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, relaxed atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, relaxed atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, relaxed atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, relaxed atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, relaxed atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, relaxed atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, relaxed atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, relaxed atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, energetic atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, energetic atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, energetic atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, energetic atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, energetic atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, energetic atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, energetic atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, energetic atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, energetic atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, energetic atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, nostalgic atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, nostalgic atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, nostalgic atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, nostalgic atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, nostalgic atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, nostalgic atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, nostalgic atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, nostalgic atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, nostalgic atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, nostalgic atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, romantic atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, romantic atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, romantic atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, romantic atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, romantic atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, romantic atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, romantic atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, romantic atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, romantic atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, romantic atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, brooding atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, brooding atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, brooding atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, brooding atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, brooding atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, brooding atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, brooding atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, brooding atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, brooding atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, brooding atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, meditative atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, meditative atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, meditative atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, meditative atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, meditative atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, meditative atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, meditative atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, meditative atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, meditative atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, meditative atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, playful atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, playful atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, playful atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, playful atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, playful atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, playful atmosphere, featuring muted trumpet quartet","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, playful atmosphere, featuring muted trumpet quartet","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, playful atmosphere, featuring muted trumpet quartet","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, playful atmosphere, featuring muted trumpet quartet","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, playful atmosphere, featuring muted trumpet quartet","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, late-night atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, late-night atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, late-night atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, late-night atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, late-night atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, late-night atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, late-night atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, late-night atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, late-night atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, late-night atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, melancholic atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, melancholic atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, melancholic atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, melancholic atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, melancholic atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, melancholic atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, melancholic atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, melancholic atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, melancholic atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, melancholic atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, uplifting atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, uplifting atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, uplifting atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, uplifting atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, uplifting atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, uplifting atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, uplifting atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, uplifting atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, uplifting atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, uplifting atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, relaxed atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, relaxed atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, relaxed atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, relaxed atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, relaxed atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, relaxed atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, relaxed atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, relaxed atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, relaxed atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, relaxed atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, energetic atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, energetic atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, energetic atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, energetic atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, energetic atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, energetic atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, energetic atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, energetic atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, energetic atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, energetic atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, nostalgic atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, nostalgic atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, nostalgic atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, nostalgic atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, nostalgic atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, nostalgic atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, nostalgic atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, nostalgic atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, nostalgic atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, nostalgic atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, romantic atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, romantic atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, romantic atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, romantic atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, romantic atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, romantic atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, romantic atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, romantic atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, romantic atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, romantic atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, brooding atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, brooding atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, brooding atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, brooding atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, brooding atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, brooding atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, brooding atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, brooding atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, brooding atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, brooding atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, meditative atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, meditative atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, meditative atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, meditative atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, meditative atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, meditative atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, meditative atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, meditative atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, meditative atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, meditative atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, playful atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, playful atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, playful atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, playful atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, playful atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, playful atmosphere, featuring solo piano with walking bass","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, playful atmosphere, featuring solo piano with walking bass","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, playful atmosphere, featuring solo piano with walking bass","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, playful atmosphere, featuring solo piano with walking bass","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, playful atmosphere, featuring solo piano with walking bass","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, late-night atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, late-night atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, late-night atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, late-night atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, late-night atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, late-night atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, late-night atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, late-night atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, late-night atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, late-night atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, melancholic atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, melancholic atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, melancholic atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, melancholic atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, melancholic atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, melancholic atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, melancholic atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, melancholic atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, melancholic atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, melancholic atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, uplifting atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, uplifting atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, uplifting atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, uplifting atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, uplifting atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, uplifting atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, uplifting atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, uplifting atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, uplifting atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, uplifting atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, relaxed atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, relaxed atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, relaxed atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, relaxed atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, relaxed atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, relaxed atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, relaxed atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, relaxed atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, relaxed atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, relaxed atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, energetic atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, energetic atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, energetic atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, energetic atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, energetic atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, energetic atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, energetic atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, energetic atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, energetic atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, energetic atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, nostalgic atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, nostalgic atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, nostalgic atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, nostalgic atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, nostalgic atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, nostalgic atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, nostalgic atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, nostalgic atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, nostalgic atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, nostalgic atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, romantic atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, romantic atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, romantic atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, romantic atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, romantic atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, romantic atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, romantic atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, romantic atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, romantic atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, romantic atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, brooding atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, brooding atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, brooding atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, brooding atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, brooding atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, brooding atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, brooding atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, brooding atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, brooding atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, brooding atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, meditative atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, meditative atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, meditative atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, meditative atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, meditative atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, meditative atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, meditative atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, meditative atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, meditative atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, meditative atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,bebop,"bebop jazz, playful atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,cool jazz,"cool jazz, playful atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,fusion,"fusion jazz, playful atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,smooth jazz,"smooth jazz, playful atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,hard bop,"hard bop jazz, playful atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
+jazz,free jazz,"free jazz, playful atmosphere, featuring flute and rhythm section","jazz, saxophone, piano",chirp-v4-5+,jazz
+jazz,latin jazz,"latin jazz, playful atmosphere, featuring flute and rhythm section","jazz, trumpet, swing",chirp-v4-5+,jazz
+jazz,swing,"swing jazz, playful atmosphere, featuring flute and rhythm section","jazz, bass, drums",chirp-v4-5+,jazz
+jazz,modal jazz,"modal jazz, playful atmosphere, featuring flute and rhythm section","jazz, guitar, bossa nova",chirp-v4-5+,jazz
+jazz,post-bop,"post-bop jazz, playful atmosphere, featuring flute and rhythm section","jazz, fusion, electric",chirp-v4-5+,jazz
