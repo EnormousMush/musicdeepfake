@@ -19,7 +19,7 @@ def load_manifest(path: Path) -> list[dict]:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", default="config.json")
+    parser.add_argument("--config", default="configs/config.json")
     args = parser.parse_args()
 
     with open(args.config, encoding="utf-8") as f:

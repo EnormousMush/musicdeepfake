@@ -36,10 +36,14 @@ def run(manifest: Manifest, client: TTAPIClient, config: dict) -> None:
             )
 
             if pending == 0 and submitted == 0 and done == downloaded:
-                print("All jobs submitted, fetched, and downloaded. Exiting.")
+                print("\n" + "=" * 60)
+                print("  ALL DONE — all tracks downloaded successfully.")
+                print("  Run: python3 validate.py --config jazz_config.json")
+                print("=" * 60 + "\n")
+                print("\a")  # terminal bell
                 break
 
-            n_sub  = submit_batch(manifest, client, config, c["submit_batch"])
+            n_sub  = submit_batch(manifest, client, config, c["max_queue"])
             n_poll = poll_batch(manifest, client, c["poll_batch"])
             n_dl   = download_batch(manifest, output_dir_path, c["download_workers"], dl_lock)
 

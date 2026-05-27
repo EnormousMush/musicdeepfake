@@ -20,7 +20,7 @@ from orchestrator import run
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Suno track extraction pipeline")
-    parser.add_argument("--config", default="config.json", help="Path to config JSON")
+    parser.add_argument("--config", default="configs/config.json", help="Path to config JSON")
     parser.add_argument(
         "--freeze-only",
         action="store_true",
