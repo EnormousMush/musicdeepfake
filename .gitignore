@@ -2,11 +2,34 @@
 __pycache__/
 *.pyc
 *.pyo
+.DS_Store
 
-# Suno extraction output — audio files are large; never commit them
-part1_extraction/audio/
+# Audio / large binaries — never commit
+data/**/audio/
+data/raw/
+data/processed/
+*.mp3
+*.wav
+*.flac
+# ...except the small test fixtures we keep in the repo
+!archive/test_audio/**
+
+# Model weights / checkpoints / cached encoder features
+models/
+checkpoints/
+# HF model cache symlink -> Seagate (2.4 GB; shipped via rsync, not git)
+.hfcache
+*.ckpt
+*.pt
+*.safetensors
+*.npy
+*.npz
 
 # Secrets
 .env
 *.env
 .env.*
+data_store/
+
+# Suno extraction output (Part 1)
+part1_extraction/audio/
