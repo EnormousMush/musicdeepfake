@@ -1,0 +1,14 @@
+# Stage 1 (server/GPU) — SSL/codec encoders. Install into a fresh venv on the server.
+# Install torch matching the server's CUDA (see https://pytorch.org). Example (CUDA 12.1):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+torch
+transformers>=4.30   # provides EncodecModel (the `encodec` codec probe — no extra dep)
+nnAudio            # MERT's remote code may require it
+scikit-learn
+soundfile
+librosa            # resampling + loading
+pyloudnorm         # LUFS normalization — needed so server-made Suno clips match the FMA clips
+numpy
+pyyaml
+muq                # Tencent MuQ music SSL encoder; pulls x_clip, torchvision, torchaudio, nnAudio.
+                   # Only needed for `--encoder muq`; mert/wav2vec2/xlsr/encodec don't require it.

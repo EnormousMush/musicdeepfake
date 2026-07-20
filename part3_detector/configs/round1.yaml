@@ -1,0 +1,37 @@
+# Round 1 — full real pipeline at small scale (3000 AI + 3000 human).
+# Human = FMA instrumental (era-CONFOUNDED on purpose this round; era-matching
+# needs a modern source like MTG-Jamendo, which FMA cannot provide — see docs/plan.md).
+# This config drives: manifest build (common/manifest.py) + export_subset.py.
+# Feature extraction + per-layer probe happen server-side via run_stage1.py.
+seed: 0
+
+data:
+  # NOTE the trailing space in the volume name is real: "/Volumes/Seagate /"
+  fma_meta:       "/Volumes/Seagate /fma/fma_metadata/raw_tracks.csv"
+  fma_audio_root: "/Volumes/Seagate /fma/fma_large"
+  suno_root:      "/Volumes/Seagate /suno_audio"
+  n_per_class:    3000          # 3000 AI (Suno) + 3000 human (FMA instrumental)
+  splits: {train: 0.70, val: 0.15, test: 0.15}   # group-aware; Suno _1/_2 pairs stay together
+
+preprocess:
+  sr:            24000          # MERT rate; export_subset writes 24 kHz FLAC, wav2vec2 resamples server-side
+  mono:          true
+  offset_s:      10.0           # start 10s in to skip intros/silence
+  crop_s:        30.0           # 30s (matches the run that gave 1.33%); 60s is a later knob
+  loudness_lufs: -23.0          # LUFS normalize so the model can't cheat on loudness
+
+# placeholders so run_stage0.py (mel baseline) can also use this config; the real
+# round-1 encoders are the SSL stack (MERT/wav2vec2/...) run server-side.
+encoder:
+  name:    mel
+  n_mels:  128
+  pooling: [mean, std]
+
+classifier:
+  name: logreg
+  C:    1.0
+
+paths:
+  manifest:    "data_store/manifests/round1.csv"
+  cache_dir:   "data_store/features/round1_mel"
+  results_csv: "data_store/results.csv"

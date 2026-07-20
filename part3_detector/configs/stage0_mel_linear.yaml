@@ -1,0 +1,32 @@
+# Stage 0 — plumbing + baseline: mel-spectrogram + pooled features + logistic regression.
+# Runs on Mac CPU. Goal: prove the pipeline end-to-end and get a baseline EER.
+seed: 0
+
+data:
+  # NOTE the trailing space in the volume name is real: "/Volumes/Seagate /"
+  fma_meta:       "/Volumes/Seagate /fma/fma_metadata/raw_tracks.csv"
+  fma_audio_root: "/Volumes/Seagate /fma/fma_large"
+  suno_root:      "/Volumes/Seagate /suno_audio"
+  n_per_class:    2000          # balanced: 2000 AI (Suno) + 2000 human (FMA)
+  splits: {train: 0.70, val: 0.15, test: 0.15}
+
+preprocess:
+  sr:            22050
+  mono:          true
+  offset_s:      10.0           # start 10s in to skip intros/silence
+  crop_s:        30.0
+  loudness_lufs: -23.0          # LUFS normalize so the model can't cheat on loudness
+
+encoder:
+  name:    mel
+  n_mels:  128
+  pooling: [mean, std]          # temporal pooling -> fixed-length vector (tiny to cache)
+
+classifier:
+  name: logreg
+  C:    1.0
+
+paths:
+  manifest:   "data_store/manifests/stage0.csv"
+  cache_dir:  "data_store/features/stage0_mel"
+  results_csv: "data_store/results.csv"
