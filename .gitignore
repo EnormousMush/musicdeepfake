@@ -31,5 +31,5 @@ checkpoints/
 .env.*
 data_store/
 
-# Suno extraction output (Part 1)
-part1_extraction/audio/
+# Local runbooks with real server values (never commit)
+*.local.md
