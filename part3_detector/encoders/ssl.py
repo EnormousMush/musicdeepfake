@@ -59,8 +59,8 @@ class SSLEncoder:
             raise ValueError(f"unhandled kind '{self.kind}'")
 
     @torch.no_grad()
-    def encode_all_layers(self, wav: np.ndarray, in_sr: int) -> np.ndarray:
-        """wav (1-D float array) -> [n_layers, 2 * hidden_dim] (mean||std pooled per layer)."""
+    def _hidden(self, wav: np.ndarray, in_sr: int) -> "torch.Tensor":
+        """Per-layer hidden states [n_layers, T, D] on device (no pooling)."""
         if in_sr != self.sr:
             wav = librosa.resample(wav, orig_sr=in_sr, target_sr=self.sr)
         wav = np.asarray(wav, dtype=np.float32)
@@ -69,22 +69,29 @@ class SSLEncoder:
             inputs = self.processor(wav, sampling_rate=self.sr, return_tensors="pt")
             inputs = {k: v.to(self.device) for k, v in inputs.items()}
             out = self.model(**inputs, output_hidden_states=True)
-            hs = torch.stack(out.hidden_states, dim=0).squeeze(1)          # [L, T, D]
-
+            return torch.stack(out.hidden_states, dim=0).squeeze(1)        # [L, T, D]
         elif self.kind == "muq":
             x = torch.from_numpy(wav).unsqueeze(0).to(self.device)         # [1, T]
             out = self.model(x, output_hidden_states=True)
-            hs = torch.stack(out.hidden_states, dim=0).squeeze(1)          # [L, T, D]
-
+            return torch.stack(out.hidden_states, dim=0).squeeze(1)        # [L, T, D]
         elif self.kind == "encodec":
             inputs = self.processor(raw_audio=wav, sampling_rate=self.sr, return_tensors="pt")
             iv = inputs["input_values"].to(self.device)                    # [1, 1, T]
             lat = self.model.encoder(iv)                                   # [1, D, T'] continuous latent
-            hs = lat.permute(0, 2, 1)                                      # [1, T', D]  (n_layers = 1)
+            return lat.permute(0, 2, 1)                                    # [1, T', D]  (n_layers = 1)
+        raise ValueError(f"unhandled kind '{self.kind}'")
 
-        else:
-            raise ValueError(f"unhandled kind '{self.kind}'")
-
+    @torch.no_grad()
+    def encode_all_layers(self, wav: np.ndarray, in_sr: int) -> np.ndarray:
+        """wav -> [n_layers, 2 * hidden_dim] (mean||std pooled per layer). For the linear probe."""
+        hs = self._hidden(wav, in_sr)
         mean = hs.mean(dim=1)                                              # [L, D]
         std = hs.std(dim=1)                                                # [L, D]
         return torch.cat([mean, std], dim=-1).cpu().numpy()               # [L, 2D]
+
+    @torch.no_grad()
+    def encode_frames(self, wav: np.ndarray, in_sr: int, layer: int = -1) -> np.ndarray:
+        """wav -> ONE layer's frame-level features [T, D] (time axis kept) for temporal
+        classifiers (AASIST / SpecTTTra). Caching every layer's frames is huge, so pick one
+        layer (e.g. the per-layer probe's best). layer=-1 = last."""
+        return self._hidden(wav, in_sr)[layer].cpu().numpy()               # [T, D]
