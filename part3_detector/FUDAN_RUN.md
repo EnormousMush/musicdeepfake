@@ -30,7 +30,7 @@ Then **switch to the Fudan VPN.** From here you can't reach Claude until you swi
 Reusable shell vars — paste this in EVERY new Mac terminal you open this session:
 ```bash
 SRV=FUDAN_USER@FUDAN_HOST
-WORK=/home/FUDAN_USER/mnt/runbao-du
+WORK=/home/FUDAN_USER/mnt/bl/runbao-du
 STAGE="/Volumes/Seagate /frank-suno-round1"
 ```
 
@@ -52,7 +52,7 @@ SSH in and run this whole block. **The `export`s must be set or pip will fill th
 ```bash
 ssh $SRV        # then, inside the server:
 
-export WORK=/home/FUDAN_USER/mnt/runbao-du
+export WORK=/home/FUDAN_USER/mnt/bl/runbao-du
 mkdir -p "$WORK"/{.tmp,.pipcache,.hfcache}
 export TMPDIR="$WORK/.tmp"
 export PIP_CACHE_DIR="$WORK/.pipcache"
@@ -118,7 +118,7 @@ rsync -avP "$STAGE/subset_export_round1" "$SRV:$WORK/data_store/"
 Back in the ssh session (re-set the exports if it's a new shell). **Offline flags matter** — without
 them HuggingFace calls hang trying to reach the blocked network.
 ```bash
-export WORK=/home/FUDAN_USER/mnt/runbao-du
+export WORK=/home/FUDAN_USER/mnt/bl/runbao-du
 export TMPDIR="$WORK/.tmp" PIP_CACHE_DIR="$WORK/.pipcache" HF_HOME="$WORK/.hfcache"
 export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1     # HF is blocked → force cache-only
 export CUDA_VISIBLE_DEVICES=1                       # use GPU 1 (GPU 0 is busy)
