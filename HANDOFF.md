@@ -138,8 +138,10 @@ HANDOFF.md, README.md, requirements.txt   (root)
   was merged in via a clean branch). The `reorg-part2` branch (moving preprocessing into Part 2) was
   pushed — **check if it's merged**; if not, open the PR.
 - **The local repo's `main` is an UNRELATED history to GitHub main** (this repo was `git init`'d
-  separately). Pushes go via feature branches + PRs; do NOT force-push over GitHub main. Recent prep
-  commits (flow-matching notes, temporal head, work-dir rename) are **local-only** — push when ready.
+  separately). Sync pattern: cherry-pick local-only commits onto a branch off origin/main, then
+  fast-forward push to main; NEVER force-push. Last synced 2026-07-25 (diagnostics + HANDOFF +
+  README). GitHub main still carries ~520 legacy binaries (old archive plots, a few root mp3/png)
+  that local never tracked — harmless; clean up in a dedicated commit someday.
 - Docs use **placeholders** (`FUDAN_HOST`/`FUDAN_USER`/`UCHI_*`) so no server creds are public;
   `*.local.md` is gitignored.
 
