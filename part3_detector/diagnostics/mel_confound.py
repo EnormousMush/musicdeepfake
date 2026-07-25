@@ -25,8 +25,9 @@ import yaml
 import librosa
 
 warnings.filterwarnings("ignore")
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from common import manifest as M
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))                   # part3_detector
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))  # repo root — manifest is Part 2
+from part2_analysis import manifest as M
 from classifiers import linear as linear_clf
 from eval.eer import compute_eer
 

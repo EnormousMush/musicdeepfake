@@ -136,7 +136,11 @@ python run_stage1.py --data-dir data_store/subset_export_round1 --encoder xlsr
   `data_store/subset_export_round1/features/<encoder>/` (on `$WORK`). Re-runs + probing are instant.
 - **When GPU is fixed** (super): reinstall the CUDA torch build matching `nvidia-smi`, re-run same
   commands — much faster.
-- **To re-export with different preprocessing** (e.g. 60 s crop): Claude re-runs `export_subset.py`
-  on the Mac; you re-rsync §4.
+- **To re-export with different preprocessing** (e.g. 60 s crop): Claude re-runs
+  `part2_analysis/export_subset.py` on the Mac (preprocessing lives in Part 2 now); you re-rsync §4.
+- **Part layout**: `run_stage1.py` (this Fudan flow) is **self-contained** — it needs only
+  `part3_detector/` (encoders/classifiers/eval). `run_stage0.py` and `diagnostics/` now import
+  preprocessing/manifest from `part2_analysis/`, so if you run *those* on the server, rsync
+  `part2_analysis/` too. §1 above copies only `part3_detector/`, which is all `run_stage1.py` needs.
 - **Encoders**: `mert`/`wav2vec2`/`xlsr` = HF SSL (13 layers); `muq` = MuQ music SSL (13 layers,
   needs `muq` pip pkg); `encodec` = neural-codec probe (1 layer). All output `[n_layers, 2*dim]`.

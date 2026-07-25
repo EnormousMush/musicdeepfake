@@ -29,9 +29,10 @@ import yaml
 warnings.filterwarnings("ignore", category=UserWarning)
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import manifest as M
-from preprocess.audio import load_canonical
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))                   # part3_detector (encoders/classifiers/eval)
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # repo root — preprocessing + manifest are Part 2
+from part2_analysis import manifest as M
+from part2_analysis.preprocess.audio import load_canonical
 from encoders import mel as mel_encoder
 from classifiers import linear as linear_clf
 from eval.eer import compute_eer

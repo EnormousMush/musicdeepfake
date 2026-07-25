@@ -22,8 +22,8 @@ import soundfile as sf
 import yaml
 
 warnings.filterwarnings("ignore")
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import manifest as M
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))   # part2_analysis (manifest + preprocess, both Part 2)
+import manifest as M
 from preprocess.audio import load_canonical
 
 EXPORT_SR = 24000  # MERT sampling rate; wav2vec2 (16 kHz) is resampled server-side
