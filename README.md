@@ -1,6 +1,4 @@
-
 # musicdeepfake
-deepfake detector specialized in Suno-generated music
 
 Deepfake detection for AI-generated music (primarily [Suno](https://suno.com)) vs. human music.
 UChicago honors thesis · advisor Prof. Blase Ur.
