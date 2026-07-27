@@ -4,7 +4,7 @@
 从 suno_prompts_all.json 按 genre 均衡采样(固定种子,可复现),每条 prompt 生成一首
 30s instrumental,输出 flac + manifest.csv。断点续跑:已生成的跳过。
 
-在 ACE-Step-1.5 仓库目录下运行(依赖其 venv):
+在 ACE-Step-1.5 仓库目录下运行(依赖其 venv;需连同 crossgen_prompts.py 一起拷入):
   cd ACE-Step-1.5
   uv run python crossgen_generate.py --prompts suno_prompts_all.json \
       --out output/acestep_batch --n-per-genre 125 --device cuda --backend vllm
@@ -12,12 +12,11 @@
 """
 import argparse
 import csv
-import json
 import os
 import time
 from pathlib import Path
 
-import numpy as np
+from crossgen_prompts import sample_plan
 
 
 def main():
@@ -38,19 +37,8 @@ def main():
     out = Path(args.out); out.mkdir(parents=True, exist_ok=True)
     man_path = out / "manifest.csv"
 
-    # ---- 均衡采样(固定种子,可复现) ----
-    prompts = json.load(open(args.prompts))
-    rng = np.random.default_rng(0)
-    by_genre = {}
-    for p in prompts:
-        by_genre.setdefault(p["genre"], []).append(p)
-    plan = []
-    for g in sorted(by_genre):
-        idx = rng.permutation(len(by_genre[g]))[: args.n_per_genre]
-        for i in idx:
-            p = by_genre[g][int(i)]
-            plan.append(dict(audio_id=f"acestep_{g}_{int(i):04d}", genre=g,
-                             caption=p["prompt"], seed=int(1e6 + i)))
+    # ---- 均衡采样(共享模块,与全部生成器同一份计划) ----
+    plan = sample_plan(args.prompts, prefix="acestep", n_per_genre=args.n_per_genre)
     if args.limit:
         plan = plan[: args.limit]
     done = set()
