@@ -60,9 +60,11 @@ def process_one(src_path, out_path, offset_s):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--fmc-dir", required=True, help="解压后的 FakeMusicCaps 根目录")
-    ap.add_argument("--round1-dir", required=True, help="round-1 导出目录(含 manifest.csv)")
+    ap.add_argument("--round1-dir", default=None, help="round-1 导出目录;不给则只处理生成器侧")
     ap.add_argument("--out", required=True)
     ap.add_argument("--per-gen", type=int, default=1000)
+    ap.add_argument("--gen-offset", type=float, default=0.0,
+                    help="生成器侧裁剪起点秒(FMC 原始只有10s用0;自产30/40s歌用10取中段)")
     ap.add_argument("--limit", type=int, default=None, help="干跑:每组只处理 N 个")
     args = ap.parse_args()
 
@@ -72,8 +74,10 @@ def main():
     t0 = time.time()
 
     # ---- 1) 我们的 round-1 clips -> 共同规格(中段 10s) ----
-    r1 = Path(args.round1_dir)
-    r1_rows = list(csv.DictReader(open(r1 / "manifest.csv")))
+    r1_rows = []
+    if args.round1_dir:
+        r1 = Path(args.round1_dir)
+        r1_rows = list(csv.DictReader(open(r1 / "manifest.csv")))
     for r in r1_rows:                                   # round-1 manifest 无 source 列,从 label 推
         r["source"] = "suno" if int(r["label"]) == 1 else "fma"
     if args.limit:
@@ -105,11 +109,11 @@ def main():
         pick = list(rng.choice(files, min(n, len(files)), replace=False))
         print(f"  {gname}: {len(files)} 首,采样 {len(pick)}")
         for i, p in enumerate(pick, 1):
-            aid = f"{gname}_{p.stem}"
+            aid = p.stem if p.stem.startswith(gname) else f"{gname}_{p.stem}"
             rel = f"audio/{gname}/{aid}.flac"
             try:
                 if not (out / rel).exists():
-                    process_one(p, out / rel, offset_s=0.0)
+                    process_one(p, out / rel, offset_s=args.gen_offset)
                 rows_out.append(dict(audio_id=aid, source=gname,
                                      label=1, split="test", rel_path=rel))
             except Exception as e:
