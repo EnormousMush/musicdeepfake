@@ -28,6 +28,8 @@ def main():
     ap.add_argument("--n-per-genre", type=int, default=125)
     ap.add_argument("--duration", type=float, default=30.0)
     ap.add_argument("--chorus", default="intro", help="结构标签: intro/verse/chorus/outro")
+    ap.add_argument("--style-suffix", default=", instrumental, no vocals",
+                    help="prompt 后缀压人声;传空串禁用")
     ap.add_argument("--fast", action="store_true", help="跳过流匹配(降质提速,不建议)")
     ap.add_argument("--format", default="wav", help="输出格式(flac 若其保存器支持)")
     ap.add_argument("--limit", type=int, default=None, help="干跑:总共只生成 N 首")
@@ -74,7 +76,7 @@ def main():
             torch.manual_seed(p["seed"])
             model.inference(
                 task="text-to-music",
-                text=p["caption"],
+                text=p["caption"] + args.style_suffix,
                 chorus=args.chorus,
                 time_start=0.0,
                 time_end=args.duration,
