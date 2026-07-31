@@ -58,7 +58,7 @@ def main():
     ap.add_argument("--data-dir", required=True)
     ap.add_argument("--encoder", default="muq")
     ap.add_argument("--seed", type=int, default=0)
-    ap.add_argument("--n-train", type=int, default=1600,
+    ap.add_argument("--n-train", type=int, default=800,
                     help="每个训练池假货侧配平到的数量(全池行也配平到此数)")
     ap.add_argument("--boot", type=int, default=1000, help="bootstrap 次数;0 关闭")
     args = ap.parse_args()
@@ -116,6 +116,8 @@ def main():
         # 训练量配平(池间公平的命门)
         if len(fake_train_idx) > args.n_train:
             fake_train_idx = rng.choice(fake_train_idx, args.n_train, replace=False)
+        elif len(fake_train_idx) < args.n_train:
+            print(f"⚠️ [{pool_name}] 只有 {len(fake_train_idx)} < 配平目标 {args.n_train},配平失效")
         tr = np.concatenate([fma_train_idx, fake_train_idx])
         # 选层:池内 seen-eval(成员 eval + fma-eval),与 LOGO 协议一致
         seen_eval = np.concatenate([gen_eval_idx[g] for g in members] + [fma_eval_idx])
