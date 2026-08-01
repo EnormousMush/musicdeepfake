@@ -61,6 +61,8 @@ def main():
     ap.add_argument("--n-train", type=int, default=800,
                     help="每个训练池假货侧配平到的数量(全池行也配平到此数)")
     ap.add_argument("--boot", type=int, default=1000, help="bootstrap 次数;0 关闭")
+    ap.add_argument("--dump-layers", action="store_true",
+                    help="机制解剖(H1 深度错位):每格吐逐层 EER 曲线 + oracle 最优层(带 CI)")
     args = ap.parse_args()
 
     data_dir = Path(args.data_dir)
@@ -122,9 +124,15 @@ def main():
         # 选层:池内 seen-eval(成员 eval + fma-eval),与 LOGO 协议一致
         seen_eval = np.concatenate([gen_eval_idx[g] for g in members] + [fma_eval_idx])
         best = None
+        layer_scores = {}   # dump 用:L -> {g: (y_ev, scores)}
         for L in range(n_layers):
             clf = linear_clf.train(F[tr, L], y[tr], {"C": 1.0})
             e = compute_eer(y[seen_eval], linear_clf.score(clf, F[seen_eval, L]))["eer"]
+            if args.dump_layers:
+                layer_scores[L] = {}
+                for g in gens:
+                    ev = np.concatenate([fma_eval_idx, gen_eval_idx[g]])
+                    layer_scores[L][g] = (y[ev], linear_clf.score(clf, F[ev, L]))
             if best is None or e < best[1]:
                 best = (L, e, clf)
         L, e_seen, clf = best
@@ -138,6 +146,16 @@ def main():
             mark = "内" if g in members else ""
             print(f"{g:>20} {pt*100:>7.2f}% [{lo*100:>6.2f}, {hi*100:>6.2f}]% {mark:>5}",
                   flush=True)
+        if args.dump_layers:
+            # 每格逐层曲线(CSV 行,便于机器读)+ oracle 最优层带 CI
+            for g in gens:
+                eers = [compute_eer(*layer_scores[Li][g])["eer"] for Li in range(n_layers)]
+                oL = int(np.nanargmin(eers))
+                opt, olo, ohi = bootstrap_eer(*layer_scores[oL][g], args.boot, boot_rng)
+                print("LAYER_PROFILE," + ",".join([
+                    pool_name, g, f"Lstar={L}", f"oracleL={oL}",
+                    f"oracle={opt*100:.2f}", f"olo={olo*100:.2f}", f"ohi={ohi*100:.2f}"]
+                    + [f"{e*100:.2f}" for e in eers]), flush=True)
 
     print("\n判读:① 块对角(族内低/跨族高)且反方向成立 -> 家族结构对称、真实;"
           "\n② 全池行 vs 各族行逐列对比 = 退化量(CI 分开才算真退化);"
