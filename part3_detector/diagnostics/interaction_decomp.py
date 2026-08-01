@@ -11,8 +11,10 @@ import numpy as np
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--dir", default=".", help="fam_{enc}_999999.txt 所在目录")
+ap.add_argument("--encoders", default="mert,muq,wav2vec2",
+                help="逗号分隔编码器名单,如 mert,muq,wav2vec2,xlsr,encodec")
 args = ap.parse_args()
-FILES = {e: f"{args.dir}/fam_{e}_999999.txt" for e in ("mert", "muq", "wav2vec2")}
+FILES = {e: f"{args.dir}/fam_{e}_999999.txt" for e in args.encoders.split(",")}
 rng = np.random.default_rng(0)
 EPS = 1e-3
 
