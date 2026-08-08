@@ -86,8 +86,9 @@ def one_clip(args):
         best_key, best_corr, alt_key, alt_corr = estimate_key(path)
         row["best_key"] = str(best_key)
         row["best_corr"] = float(best_corr)
-        row["alt_key"] = str(alt_key)
-        row["alt_corr"] = float(alt_corr)
+        if alt_key is not None:          # None = 无次选调(调性明确),合法缺失
+            row["alt_key"] = str(alt_key)
+            row["alt_corr"] = float(alt_corr)
     except Exception as e:
         row["key_error"] = repr(e)[:80]
     return row
