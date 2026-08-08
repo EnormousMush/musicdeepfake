@@ -14,9 +14,15 @@ Usage(服务器,纯 CPU,建议 --workers 16):
 """
 import argparse
 import csv
+import json
 import os
 import sys
 import time
+
+os.environ.setdefault("OMP_NUM_THREADS", "1")
+os.environ.setdefault("OPENBLAS_NUM_THREADS", "1")
+os.environ.setdefault("MKL_NUM_THREADS", "1")
+os.environ.setdefault("MPLBACKEND", "Agg")
 from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
 
@@ -102,10 +108,17 @@ def main():
     if args.limit:
         rows = rows[: args.limit]
 
+    jsonl = args.out + ".jsonl"
     done_ids = set()
-    if os.path.exists(args.out):
-        done_ids = {r["audio_id"] for r in csv.DictReader(open(args.out))}
-        print(f"resume: {len(done_ids)} already done")
+    old_rows = []
+    if os.path.exists(jsonl):
+        for line in open(jsonl):
+            try:
+                r = json.loads(line)
+                old_rows.append(r); done_ids.add(r["audio_id"])
+            except Exception:
+                pass
+        print(f"resume: {len(done_ids)} already done (from {jsonl})")
     todo = [(str(data_dir / r["rel_path"]),
              {k: r.get(k, "") for k in ("audio_id", "source", "split", "label")})
             for r in rows if r["audio_id"] not in done_ids]
@@ -114,33 +127,28 @@ def main():
         return
 
     results, t0 = [], time.time()
-    with ProcessPoolExecutor(max_workers=args.workers) as ex:
-        for i, row in enumerate(ex.map(one_clip, todo, chunksize=8), 1):
+    with open(jsonl, "a") as jf, ProcessPoolExecutor(max_workers=args.workers) as ex:
+        for i, row in enumerate(ex.map(one_clip, todo, chunksize=4), 1):
             results.append(row)
-            if i % 100 == 0:
+            jf.write(json.dumps(row) + "\n")
+            if i % 50 == 0:
+                jf.flush()
                 print(f"  {i}/{len(todo)} ({time.time()-t0:.0f}s)", flush=True)
 
+    all_rows = old_rows + results
     fieldnames = []
     seen = set()
-    for r in results:
+    for r in all_rows:
         for k in r:
             if k not in seen:
                 seen.add(k); fieldnames.append(k)
-    write_header = not os.path.exists(args.out)
-    old_rows = []
-    if not write_header:   # 合并旧行,统一列
-        old_rows = list(csv.DictReader(open(args.out)))
-        for r in old_rows:
-            for k in r:
-                if k not in seen:
-                    seen.add(k); fieldnames.append(k)
     with open(args.out, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fieldnames)
         w.writeheader()
-        for r in old_rows + results:
+        for r in all_rows:
             w.writerow(r)
     n_err = sum(1 for r in results if any(k.endswith("_error") for k in r))
-    print(f"done: {len(old_rows)+len(results)} rows -> {args.out} "
+    print(f"done: {len(all_rows)} rows -> {args.out} "
           f"(本轮含错误标记的行:{n_err})", flush=True)
 
 
