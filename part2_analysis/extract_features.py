@@ -23,6 +23,7 @@ os.environ.setdefault("OMP_NUM_THREADS", "1")
 os.environ.setdefault("OPENBLAS_NUM_THREADS", "1")
 os.environ.setdefault("MKL_NUM_THREADS", "1")
 os.environ.setdefault("MPLBACKEND", "Agg")
+import multiprocessing
 from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
 
@@ -127,13 +128,21 @@ def main():
         return
 
     results, t0 = [], time.time()
-    with open(jsonl, "a") as jf, ProcessPoolExecutor(max_workers=args.workers) as ex:
-        for i, row in enumerate(ex.map(one_clip, todo, chunksize=4), 1):
+    with open(jsonl, "a") as jf:
+        if args.workers <= 1:
+            it = map(one_clip, todo)                      # 串行:真实报错可见
+        else:
+            ctx = multiprocessing.get_context("spawn")    # spawn 干净重导入,避 fork+numba 段错误
+            ex = ProcessPoolExecutor(max_workers=args.workers, mp_context=ctx)
+            it = ex.map(one_clip, todo, chunksize=4)
+        for i, row in enumerate(it, 1):
             results.append(row)
             jf.write(json.dumps(row) + "\n")
             if i % 50 == 0:
                 jf.flush()
                 print(f"  {i}/{len(todo)} ({time.time()-t0:.0f}s)", flush=True)
+        if args.workers > 1:
+            ex.shutdown()
 
     all_rows = old_rows + results
     fieldnames = []
