@@ -34,7 +34,7 @@ API = "https://api.jamendo.com/v3.0/tracks/"
 GENRES = ["blues", "classical", "country", "electronic", "hiphop", "jazz", "pop", "rock"]
 # Jamendo fuzzytags 词表与我们的 genre 名对齐(hiphop 在 Jamendo 常写 hiphop/rap)
 FUZZY = {g: g for g in GENRES}
-FUZZY["hiphop"] = "hiphop+rap"
+FUZZY["hiphop"] = "hiphop rap"    # 多值用空格分隔;"+"会被编码成 %2B 变非法参数
 
 _MP3_MAGIC = (b"ID3", b"\xff\xfb", b"\xff\xf3", b"\xff\xf2", b"\xff\xfa")
 
@@ -47,22 +47,35 @@ def _is_valid_mp3(path: Path) -> bool:
     return any(header[: len(m)] == m for m in _MP3_MAGIC)
 
 
-def api_pool(client_id, genre, date_lo, date_hi, pool_target, sleep_s=0.6):
+def _get_page(params, tries=4):
+    """一页,带重试:Jamendo 会间歇性返回空结果(无错误码),空页也重试确认。"""
+    for attempt in range(tries):
+        try:
+            r = requests.get(API, params=params, timeout=60)
+            r.raise_for_status()
+            body = r.json()
+            if body.get("headers", {}).get("status") != "success":
+                raise RuntimeError(f"API error: {body.get('headers')}")
+            rows = body.get("results", [])
+            if rows or attempt == tries - 1:
+                return rows
+        except Exception:
+            if attempt == tries - 1:
+                raise
+        time.sleep(2.0 * (attempt + 1))
+    return []
+
+
+def api_pool(client_id, genre, date_lo, date_hi, pool_target, sleep_s=0.8):
     """按 genre 拉候选池:releasedate 过滤 + 时长门槛 + 可下载。返回 track dict 列表。"""
     out, offset = [], 0
     while len(out) < pool_target:
-        params = dict(
+        rows = _get_page(dict(
             client_id=client_id, format="json", limit=200, offset=offset,
             fuzzytags=FUZZY[genre], datebetween=f"{date_lo}_{date_hi}",
             durationbetween="60_600", audioformat="mp32",
-            include="musicinfo+licenses", order="popularity_total",
-        )
-        r = requests.get(API, params=params, timeout=60)
-        r.raise_for_status()
-        body = r.json()
-        if body.get("headers", {}).get("status") != "success":
-            raise RuntimeError(f"API error: {body.get('headers')}")
-        rows = body.get("results", [])
+            include="musicinfo licenses", order="popularity_total",
+        ))
         if not rows:
             break
         for t in rows:
@@ -74,19 +87,25 @@ def api_pool(client_id, genre, date_lo, date_hi, pool_target, sleep_s=0.6):
 
 
 def sample_diverse(pool, n_target, per_artist_cap, seed=0):
-    """人群多样性优先:每 artist 上限 cap 首;池内随机(seed 可复现)。"""
+    """人群多样性优先:每 artist 上限 cap 首;池内随机(seed 可复现)。
+    池子小凑不满时,逐步放宽上限兜底(cap→2cap→4cap),放宽情况打印告警。"""
     rng = np.random.default_rng(seed)
-    order = rng.permutation(len(pool))
-    picked, per_artist = [], {}
-    for i in order:
-        t = pool[int(i)]
-        a = str(t.get("artist_id", ""))
-        if per_artist.get(a, 0) >= per_artist_cap:
-            continue
-        per_artist[a] = per_artist.get(a, 0) + 1
-        picked.append(t)
-        if len(picked) >= n_target:
-            break
+    order = [int(i) for i in rng.permutation(len(pool))]
+    picked, per_artist, chosen = [], {}, set()
+    for cap in (per_artist_cap, per_artist_cap * 2, per_artist_cap * 4):
+        for i in order:
+            if i in chosen:
+                continue
+            t = pool[i]
+            a = str(t.get("artist_id", ""))
+            if per_artist.get(a, 0) >= cap:
+                continue
+            per_artist[a] = per_artist.get(a, 0) + 1
+            picked.append(t); chosen.add(i)
+            if len(picked) >= n_target:
+                return picked
+        if cap > per_artist_cap:
+            print(f"  警告:歌手上限放宽到 {cap} 仍只凑到 {len(picked)}/{n_target}")
     return picked
 
 
