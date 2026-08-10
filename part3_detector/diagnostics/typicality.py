@@ -105,7 +105,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--data-dir", required=True)
     ap.add_argument("--encoder", default="muq")
+    ap.add_argument("--real-source", default="fma",
+                    help="真实参照人群(fma=2010s / jamendo=2024-26);年代对照复测用 jamendo")
     args = ap.parse_args()
+    R = args.real_source
 
     data_dir = Path(args.data_dir)
     rows = list(csv.DictReader(open(data_dir / "manifest.csv")))
@@ -121,12 +124,12 @@ def main():
     n_layers = F.shape[1]
     print(f"Loaded {len(y)} clips, {n_layers} layers ({args.encoder})", flush=True)
 
-    gens = sorted(set(src) - {"fma"})
-    fma_train = (src == "fma") & (sp == "train")
-    fma_test = (src == "fma") & (sp == "test")
+    gens = sorted(set(src) - {"fma", "jamendo"})   # 两个真人语料都不算生成器
+    fma_train = (src == R) & (sp == "train")
+    fma_test = (src == R) & (sp == "test")
     suno_val = (src == "suno") & (sp == "val")
-    fma_val = (src == "fma") & (sp == "val")
-    print(f"真实训练侧 {fma_train.sum()} | fma-test {fma_test.sum()} | 生成器({len(gens)}): {gens}")
+    fma_val = (src == R) & (sp == "val")
+    print(f"真实参照 = {R} | 训练侧 {fma_train.sum()} | {R}-test {fma_test.sum()} | 生成器({len(gens)}): {gens}")
 
     def pair_eer(s_real, s_fake):
         yy = np.concatenate([np.zeros(len(s_real)), np.ones(len(s_fake))])
