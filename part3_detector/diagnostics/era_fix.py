@@ -23,8 +23,10 @@ from pathlib import Path
 import numpy as np
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from classifiers import linear as linear_clf
 from eval.eer import compute_eer
+from jam_inst import instrumental_ids, filter_rows
 
 SOURCES = ("suno", "fma", "jamendo")
 
@@ -33,12 +35,22 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--data-dir", required=True)
     ap.add_argument("--encoder", default="muq")
+    ap.add_argument("--inst-only", action="store_true",
+                    help="jamendo 只用纯器乐 2050 首(与手工特征侧口径一致)")
     args = ap.parse_args()
 
     data_dir = Path(args.data_dir)
     cache = data_dir / "features" / args.encoder
     rows = [r for r in csv.DictReader(open(data_dir / "manifest.csv"))
             if r["source"] in SOURCES]
+    if args.inst_only:
+        ids = instrumental_ids()
+        if ids is None:
+            print("警告:未找到 jamendo_instrumental.txt,未过滤人声", flush=True)
+        else:
+            n0 = sum(1 for r in rows if r["source"] == "jamendo")
+            rows = filter_rows(rows, ids)
+            print(f"inst-only: jamendo {n0} -> {sum(1 for r in rows if r['source']=='jamendo')}", flush=True)
     F, sp, src = [], [], []
     for r in rows:
         p = cache / f"{r['audio_id']}.npy"

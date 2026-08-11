@@ -32,8 +32,10 @@ import soundfile as sf
 
 warnings.filterwarnings("ignore")
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from classifiers import linear as linear_clf
 from eval.eer import compute_eer
+from jam_inst import instrumental_ids, filter_rows
 
 SOURCES = ("suno", "fma", "jamendo")
 
@@ -42,6 +44,14 @@ def load_features(args):
     data_dir = Path(args.data_dir)
     rows = [r for r in csv.DictReader(open(data_dir / "manifest.csv"))
             if r["source"] in SOURCES]
+    if args.inst_only:
+        ids = instrumental_ids()
+        if ids is None:
+            print("警告:未找到 jamendo_instrumental.txt,未过滤人声", flush=True)
+        else:
+            n0 = sum(1 for r in rows if r["source"] == "jamendo")
+            rows = filter_rows(rows, ids)
+            print(f"inst-only: jamendo {n0} -> {sum(1 for r in rows if r['source']=='jamendo')}", flush=True)
     if args.limit:
         keep, seen = [], {}
         for r in rows:
@@ -101,6 +111,8 @@ def main():
     ap.add_argument("--encoder", default="mert")
     ap.add_argument("--limit", type=int, default=None)
     ap.add_argument("--device", default=None)
+    ap.add_argument("--inst-only", action="store_true",
+                    help="jamendo 只用纯器乐 2050 首(与手工特征侧口径一致)")
     args = ap.parse_args()
 
     F, sp, src = load_features(args)
