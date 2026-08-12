@@ -13,7 +13,9 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--dir", default=".", help="fam_{enc}_999999.txt 所在目录")
 ap.add_argument("--encoders", default="mert,muq,wav2vec2",
                 help="逗号分隔编码器名单,如 mert,muq,wav2vec2,xlsr,encodec")
+ap.add_argument("--gens", default="", help="逗号分隔,只保留这些考生(空=全部)")
 args = ap.parse_args()
+KEEP = set(x for x in args.gens.split(",") if x)
 FILES = {e: f"{args.dir}/fam_{e}_999999.txt" for e in args.encoders.split(",")}
 rng = np.random.default_rng(0)
 EPS = 1e-3
@@ -22,19 +24,22 @@ cells = {}   # (enc, pool, gen) -> (eer, sd)
 for enc, path in FILES.items():
     pool = None
     for line in open(path, encoding="utf-8"):
-        m = re.match(r"### 训练池 \[([^\]]+)\]", line)
+        m = re.match(r"### 训练池 \[([^\](]+)", line)
         if m:
-            pool = m.group(1)
+            pool = m.group(1).strip()
             continue
         m = re.match(r"\s+(\S+)\s+([\d.]+)% \[\s*([\d.]+),\s*([\d.]+)\]%(\s+内)?", line)
         if m and pool and "全池" not in pool:
             g, eer, lo, hi = m.group(1), float(m.group(2)), float(m.group(3)), float(m.group(4))
             if m.group(5):           # 池内格,剔除
                 continue
+            if KEEP and g not in KEEP: continue
             cells[(enc, pool, g)] = (eer / 100, (hi - lo) / 100 / 3.92)
 
 encs = sorted({k[0] for k in cells})
 conds = sorted({(k[1], k[2]) for k in cells})
+conds = [c for c in conds if all((e, c[0], c[1]) in cells for e in encs)]
+cells = {k: v for k, v in cells.items() if (k[1], k[2]) in set(conds)}
 gens = sorted({k[2] for k in cells})
 print(f"跨族格:{len(cells)}(= {len(encs)} 编码器 × {len(conds)} 条件)")
 
@@ -84,6 +89,8 @@ print("\n预注册/线索格核对:")
 for enc, g, tag in [("muq", "audioldm2", "预测格2 MuQ×lofi"), ("muq", "musicldm", "预测格2"),
                     ("muq", "mustango", "预测格2"), ("mert", "MusicGen_medium", "预测格1 MERT×MusicGen"),
                     ("mert", "mureka", "线索格 MERT×Mureka")]:
+    if enc not in encs or g not in gens:
+        print(f"  {tag:>24}: (该格不在本次筛选范围内,跳过)"); continue
     i, j = encs.index(enc), gens.index(g)
     star = "显著" if (lo[i, j] > 0 or hi[i, j] < 0) else "不显著"
     print(f"  {tag:>24}: Γ={G0[i,j]:+.2f} [{lo[i,j]:+.2f},{hi[i,j]:+.2f}] {star}")
