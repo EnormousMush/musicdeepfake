@@ -22,28 +22,30 @@ Usage(Mac,Seagate 挂载):
 """
 import argparse
 import csv
+import json
 import re
+import subprocess
 import time
 from collections import Counter
-from datetime import datetime
 from pathlib import Path
 
 import requests
 
-API = "http://ccmixter.org/api/query"   # http 而非 https:本机代理 + urllib3v2/LibreSSL 的
-PAGE = 12                                # CONNECT 链路会 LineTooLong,明文过代理无此病;
-UA = {"User-Agent": "honors-thesis-corpus/1.0 (academic research)"}  # 完整性靠下载校验兜底
-# PAGE=12(约40KB/页):本机代理对 >~64KB 的单响应必炸(LineTooLong),实测 15 条安全、50 条炸。
+API = "https://ccmixter.org/api/query"
+PAGE = 12   # 服务器会悄悄把大 limit 砍到 12;固定 12 并按实际返回条数推进 offset
+UA = {"User-Agent": "honors-thesis-corpus/1.0 (academic research)"}
+# 翻页用 curl 子进程:本机代理会把大响应搞成 >64KB 的单行,python http 库(_MAXLINE=65536)
+# 必炸 LineTooLong;curl 无此限制。偶发慢响应靠重试消化(实测正常 ~2s/页)。
+# 下载仍用 requests(定长流式响应,无此病;带 Referer 过防盗链)。
 
 
 def get_page(offset, retries=5):
+    url = f"{API}?f=json&tags=instrumental&sort=date&limit={PAGE}&offset={offset}"
     for i in range(retries):
         try:
-            r = requests.get(API, params={"f": "json", "tags": "instrumental",
-                                          "sort": "date", "limit": PAGE, "offset": offset},
-                             headers=UA, timeout=30)
-            r.raise_for_status()
-            data = r.json()
+            out = subprocess.run(["curl", "-sf", "--max-time", "45", "-A", UA["User-Agent"], url],
+                                 capture_output=True, timeout=60).stdout
+            data = json.loads(out)
             if isinstance(data, list):
                 return data
         except Exception as e:
@@ -128,7 +130,7 @@ def main():
         if not page:
             print("翻页尽头/连续失败,停止", flush=True)
             break
-        offset += PAGE
+        offset += len(page)   # 按实际条数推进:服务器可能给少于 PAGE 条,按 PAGE 推会漏采
         stop = False
         for up in page:
             seen_cand += 1
