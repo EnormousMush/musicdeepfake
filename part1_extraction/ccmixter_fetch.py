@@ -45,7 +45,8 @@ def get_page(offset, retries=5):
         try:
             out = subprocess.run(["curl", "-sf", "--max-time", "45", "-A", UA["User-Agent"], url],
                                  capture_output=True, timeout=60).stdout
-            data = json.loads(out)
+            # 个别老条目的简介含非 UTF-8 字节(我们不用该字段),容错替换,别让整页报废
+            data = json.loads(out.decode("utf-8", "replace"))
             if isinstance(data, list):
                 return data
         except Exception as e:
