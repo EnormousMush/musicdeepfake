@@ -63,6 +63,14 @@ def pick_file(up):
         info = f.get("file_format_info", {})
         if info.get("media-type") == "audio" and info.get("default-ext") == "mp3" \
                 and not f.get("file_is_remote") and f.get("download_url"):
+            # 时长预过滤:有的上传 mp3 只是几秒试听(正片是 FLAC),ps 形如 "4:14"
+            ps = info.get("ps") or ""
+            try:
+                mm, ss = ps.split(":"); dur = int(mm) * 60 + int(ss)
+            except ValueError:
+                dur = None
+            if dur is not None and dur < 60:
+                return None
             return f["download_url"]
     return None
 
