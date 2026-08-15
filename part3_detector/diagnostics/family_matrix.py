@@ -71,6 +71,8 @@ def main():
 
     F, y, sp, src = [], [], [], []
     for r in rows:
+        if r["source"] == "jamendo":   # 真实语料(Batch E 后入 manifest),非生成器,不进本矩阵
+            continue
         p = cache / f"{r['audio_id']}.npy"
         if p.exists():
             F.append(np.load(p)); y.append(int(r["label"]))
