@@ -151,7 +151,9 @@ def part_vaccine(F, sp, src, gen):
         for g in GENRES:
             pool_g = jam_tr[gen[jam_tr] == g]
             picks.append(rng.choice(pool_g, size=min(per, len(pool_g)), replace=False))
-        picks = np.concatenate(picks)[:VACCINE_N]
+        picks = np.concatenate(picks)
+        rng.shuffle(picks)          # 审计修复:不 shuffle 则按 GENRES 顺序截断,rock 恒少配额
+        picks = picks[:VACCINE_N]
         results["spread100"].append(
             run(np.concatenate([base_tr, picks]), f"spread100 s{seed}"))
     for tag, es in results.items():
