@@ -20,6 +20,12 @@ def _fix_length(y: np.ndarray, target_len: int) -> np.ndarray:
     # pad short clips by tiling then trimming (avoids long digital silence)
     if len(y) == 0:
         return np.zeros(target_len, dtype=np.float32)
+    # 2026-08-17 审计教训:平铺会制造与来源相关的"精确重复"伪迹(round1 fma-30s 案,
+    # offset 10 + 源仅 30s → 尾部 10s 是开头的复制)。超过 5% 的平铺必须让人看见。
+    deficit = target_len - len(y)
+    if deficit > 0.05 * target_len:
+        print(f"⚠️ _fix_length tiling {deficit/target_len:.0%} of target "
+              f"({len(y)} -> {target_len} samples) — 检查 offset/crop 与源时长是否匹配", flush=True)
     reps = int(np.ceil(target_len / len(y)))
     return np.tile(y, reps)[:target_len]
 
