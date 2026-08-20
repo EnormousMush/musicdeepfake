@@ -1,4 +1,6 @@
 """
+【2026-08-20 已取代】等价命令:python part2_analysis/features/extract.py --set h2_full --manifest ...。本文件冻结作历史参照。
+
 H2b 全长结构特征批量提取(fulltrack.analyze_fulltrack)。
 
 manifest 需含列:audio_id, source, split, path(绝对路径,原盘 mp3)。

@@ -1,4 +1,6 @@
 """
+【2026-08-20 冻结】特征提取已迁往 part2_analysis/features/families/quantize.py(公式原样,对拍逐位一致;load/HPSS/beat/onset 改共享 FeatureContext)。
+
 Degree of Quantization Analyzer
 
 Measures how "robotically" timed an audio file is by:

@@ -1,4 +1,6 @@
 """
+【2026-08-20 冻结】特征提取已迁往 part2_analysis/features/families/dynamics.py(公式原样,对拍逐位一致)。本文件保留:历史口径参照 + plot_dynamics 单曲诊断。
+
 1_dynamics.py — Dynamics & Loudness Analysis
 
 Panels:

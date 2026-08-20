@@ -1,4 +1,6 @@
 """
+【2026-08-20 冻结】特征提取已迁往 part2_analysis/features/families/key.py(公式原样,含 11025Hz 历史口径)。
+
 Key estimation for audio files using librosa's chroma features + Krumhansl-Schmuckler profiles.
 Approach adapted from Tonal_Fragment (Philip Kirlin) with HPSS harmonic separation.
 """

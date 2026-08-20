@@ -1,4 +1,6 @@
 """
+【2026-08-20 冻结】load_audio 的共享中间量职能已由 features/context.py 接管;本文件只服务旧模块的画图诊断路径。
+
 analysis_utils.py — Shared utilities for all analysis modules.
 
 Provides:

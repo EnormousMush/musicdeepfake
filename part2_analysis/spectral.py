@@ -1,4 +1,6 @@
 """
+【2026-08-20 冻结】特征提取已迁往 part2_analysis/features/families/spectral.py(公式原样,对拍逐位一致)。本文件保留:①历史口径参照;②plot_spectral 单曲画图诊断仍可用。新代码勿再 import 本文件提特征。
+
 2_spectral.py — Spectral & Brightness Analysis
 
 Panels:

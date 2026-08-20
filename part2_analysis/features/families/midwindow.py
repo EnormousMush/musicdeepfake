@@ -1,5 +1,6 @@
 """
-【2026-08-20 已平移】本模块已原样平移至 part2_analysis/features/families/midwindow.py,新代码从那里引用;本文件冻结。
+【2026-08-20 大修】本文件为 part2_analysis/midwindow.py 的原样平移(数值口径不变);
+新代码请从 features.families.midwindow 引用;统一入口 run(path)=analyze_midwindow。
 
 30 秒中窗特征(人性线 H2 第二刀,2026-08-10):10s 窗看不见的三类"时间尺度"信号。
 
@@ -83,3 +84,6 @@ def analyze_midwindow(path):
     else:
         out["drift_missing"] = "too_few_beats"       # 合法缺失(自由节拍/环境声)
     return out
+
+
+run = analyze_midwindow

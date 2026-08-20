@@ -1,4 +1,6 @@
 """
+【2026-08-20 注记】本模块从未被任何提取管线调用(零消费方);歌词结构属加人声后的 late plan,保留待启用。
+
 Song Structure Detector
 =======================
 Detects the repeating structural sections of a song (Intro, Verse, Chorus,

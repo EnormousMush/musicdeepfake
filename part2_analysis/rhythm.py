@@ -1,4 +1,6 @@
 """
+【2026-08-20 冻结】特征提取已迁往 part2_analysis/features/families/rhythm.py(公式原样,对拍逐位一致;旧版顶层 ibis 数组曾泄成 CSV 事故列,新版已绝版)。本文件保留:历史口径参照 + plot_rhythm 单曲诊断。
+
 4_rhythm.py — Rhythm & Timing Analysis
 
 Panels:

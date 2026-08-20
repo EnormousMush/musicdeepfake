@@ -1,4 +1,6 @@
 """
+【2026-08-20 已取代】等价命令:python part2_analysis/features/extract.py --set h2_mid ...。本文件冻结作历史参照。
+
 H2 中窗特征批量提取:midwindow.analyze_midwindow 跑在 h2_export 的 30s 窗上。
 
 Usage(Mac 即可,Seagate 挂载;烟测 --limit 5 先行):

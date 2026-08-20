@@ -1,5 +1,6 @@
 """
-【2026-08-20 已平移】本模块已原样平移至 part2_analysis/features/families/fulltrack.py,新代码从那里引用;本文件冻结。
+【2026-08-20 大修】本文件为 part2_analysis/fulltrack.py 的原样平移(数值口径不变);
+新代码请从 features.families.fulltrack 引用;统一入口 run(path)=analyze_fulltrack。
 
 全长结构特征(人性线 H2 第三刀,2026-08-10):只有整首歌才存在的信号。suno×jamendo 双雄
 (FMA 无全长缺席)。全部纯 DSP,零 ML;原盘直读(无 LUFS——所有响度特征取相对量/斜率)。
@@ -139,3 +140,6 @@ def analyze_fulltrack(path):
     # ---- 结构 ----
     _ssm_features(y, SR, out)
     return out
+
+
+run = analyze_fulltrack

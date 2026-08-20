@@ -1,4 +1,6 @@
 """
+【2026-08-20 冻结】特征提取已迁往 part2_analysis/features/families/timbral.py(公式原样,对拍逐位一致)。本文件保留:历史口径参照 + plot_timbral 单曲诊断。
+
 3_timbral.py — Timbral & Tonal Analysis
 
 Panels:
