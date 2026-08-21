@@ -32,14 +32,16 @@ INV_STEPS = 50
 SAMPLE_SEED = 20260820  # 与 Mac 版同种子 → 同一批陪审团样本
 
 # tag -> (manifest 相对 data-root, 音频根相对 data-root, source 过滤, split 过滤)
+# 服务器布局(2026-08-22 实勘):add-on 音频全在 crossgen_export/audio/<source>/,
+# 散装 manifest(crossgen_add_manifest/add_dr1/jamendo_manifest)的 rel_path 相对 crossgen_export。
 JURIES = {
     "acestep_base":  ("flowmatch_export/manifest.csv", "flowmatch_export", "acestep_base", None),
     "acestep_turbo": ("flowmatch_export/manifest.csv", "flowmatch_export", "acestep_turbo", None),
-    "jamendo": ("crossgen_add_jamendo/jamendo_manifest.csv", "crossgen_add_jamendo", "jamendo", "test"),
+    "jamendo": ("jamendo_manifest.csv", "crossgen_export", "jamendo", "test"),
     "fma":     ("crossgen_export/manifest.csv", "crossgen_export", "fma", "test"),
-    "acestep_v1":  ("crossgen_add/manifest.csv", "crossgen_add", "acestep", "test"),
-    "diffrhythm2": ("crossgen_add/manifest.csv", "crossgen_add", "diffrhythm2", "test"),
-    "dr1":         ("crossgen_add_dr1/manifest.csv", "crossgen_add_dr1", "dr1", "test"),
+    "acestep_v1":  ("crossgen_add_manifest.csv", "crossgen_export", "acestep", "test"),
+    "diffrhythm2": ("crossgen_add_manifest.csv", "crossgen_export", "diffrhythm2", "test"),
+    "dr1":         ("add_dr1.csv", "crossgen_export", "dr1", "test"),
     "musicgen":    ("crossgen_export/manifest.csv", "crossgen_export", "MusicGen_medium", "test"),
     "audioldm2":   ("crossgen_export/manifest.csv", "crossgen_export", "audioldm2", "test"),
     "suno":     ("crossgen_export/manifest.csv", "crossgen_export", "suno", "test"),
@@ -65,18 +67,29 @@ class Prober:
     def __init__(self, ckpt_dir):
         from transformers import AutoModel
         from diffusers import AutoencoderOobleck
+        # 复旦 3060/驱动470 + torch2.4-cu118 的 cuDNN 初始化犯冲(CUDNN_STATUS_NOT_INITIALIZED);
+        # 禁掉走原生内核,VAE 卷积略慢,DiT(注意力/线性)不受影响
+        torch.backends.cudnn.enabled = False
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         self.dtype = torch.bfloat16 if self.device == "cuda" else torch.float32
         base = Path(ckpt_dir) / "acestep-v15-base"
         print(f"[init] loading DiT from {base} ({self.dtype})", flush=True)
-        self.model = AutoModel.from_pretrained(
-            str(base), trust_remote_code=True, torch_dtype=self.dtype
-        ).to(self.device).eval()
-        print("[init] loading VAE (AutoencoderOobleck)", flush=True)
+        m = AutoModel.from_pretrained(
+            str(base), trust_remote_code=True, torch_dtype=self.dtype)  # 先落 CPU
+        # 瘦身:探针只用 decoder + null_condition_emb;encoder/tokenizer/detokenizer
+        # 共 818M 参数(bf16 1.6GB)全扔——GPU1 与同学的任务合租,余量只有 ~5.8GB
+        for dead in ("encoder", "tokenizer", "detokenizer"):
+            if hasattr(m, dead):
+                setattr(m, dead, None)
+        self.model = m.to(self.device).eval()
+        print("[init] loading VAE (AutoencoderOobleck, CPU fp32)", flush=True)
+        # VAE 留 CPU:GPU 与同学合租余量小,且 cuDNN 禁用后原生卷积单次要 822MB;
+        # 10s clip 的 CPU encode 仅数秒,换 GPU 只伺候 decoder
         self.vae = AutoencoderOobleck.from_pretrained(
-            str(Path(ckpt_dir) / "vae"), torch_dtype=self.dtype
-        ).to(self.device).eval()
+            str(Path(ckpt_dir) / "vae"), torch_dtype=torch.float32).eval()
         sl = torch.load(str(base / "silence_latent.pt"), map_location="cpu")
+        if sl.dim() == 3 and sl.shape[1] == 64 and sl.shape[2] != 64:
+            sl = sl.transpose(1, 2)  # 盘上存的是 (1,64,T) 通道在前;handler 加载时会转置,独立版自己转
         self.silence_latent = sl.to(device=self.device, dtype=self.dtype)  # (1,T0,64)
         import torchaudio
         self.resampler = torchaudio.transforms.Resample(16000, 48000)
@@ -90,11 +103,11 @@ class Prober:
             audio = torch.cat([audio, audio], dim=0)  # mono → 双声道(同 handler)
         audio = self.resampler(audio[:2])
         audio = torch.clamp(audio, -1.0, 1.0)
-        vae_in = audio.unsqueeze(0).to(self.device).to(self.dtype)
-        g = torch.Generator(device=self.device).manual_seed(seed)
+        vae_in = audio.unsqueeze(0).float()                       # CPU fp32
+        g = torch.Generator().manual_seed(seed)
         with torch.inference_mode():
             latents = self.vae.encode(vae_in).latent_dist.sample(generator=g)  # (1,64,T)
-        return latents.transpose(1, 2)               # (1,T,64)
+        return latents.transpose(1, 2).to(self.device).to(self.dtype)  # (1,T,64) → GPU bf16
 
     def _cond(self, x0):
         bsz, T, _ = x0.shape
