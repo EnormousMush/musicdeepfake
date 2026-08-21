@@ -75,8 +75,9 @@ CAPTIONS = {
                    "instrumental country rock, twangy telecaster",
                    "instrumental western swing, fiddle and guitar"],
 }
-DURATION_S = 30
+DURATION_S = 15  # 只取正中 10s;M1 上 30s×30 步撞 600s 超时,15s 省一半
 BASE_SEED = 20260819
+os.environ.setdefault("ACESTEP_GENERATION_TIMEOUT", "1800")  # M1 慢,放宽内部超时
 
 
 def build_joblist():
@@ -111,13 +112,10 @@ def main():
     status = h.initialize_service(
         project_root=ACESTEP_REPO,
         config_path=f"acestep-v15-{args.variant}",
-        device="auto",
-        use_mlx_dit=False,  # 单份 torch DiT;16GB Mac 装不下 MLX+torch 两份
+        device="cpu",              # torch 侧全在 CPU(offload_dit_to_cpu 在 Mac 不生效,
+        use_mlx_dit=True,          #  MPS 会被 fp32 主模型占满);扩散由 MLX 走 Metal,互不抢
     )
     print(status[0].splitlines()[0], flush=True)
-    if h.device == "mps":  # MPS 路径 dtype 写死 fp32 → 压 fp16
-        h.model = h.model.half()
-        h.dtype = torch.float16
 
     jobs = build_joblist()
     if args.limit:
