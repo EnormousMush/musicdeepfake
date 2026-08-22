@@ -25,6 +25,10 @@ JOBS = [
     ("fma",      "crossgen_export/manifest.csv", "crossgen_export", "fma", None),
     ("ccmixter", "heldout_export/manifest.csv", "heldout_export", "ccmixter", None),
     ("ianet",    "heldout_export/manifest.csv", "heldout_export", "ianet", None),
+    # Udio 决胜局(2026-08-22):SONICS devocal 语料
+    ("udio30",   "devocal_export/manifest.csv", "devocal_export", "udio30_dv", None),
+    ("udio120",  "devocal_export/manifest.csv", "devocal_export", "udio120_dv", None),
+    ("sunov35dv", "devocal_export/manifest.csv", "devocal_export", "sunov35_dv", None),
 ]
 
 

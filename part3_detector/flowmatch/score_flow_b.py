@@ -33,6 +33,8 @@ JURIES = [
     ("fma_test", "fma", "test"),
     ("ccmixter", "ccmixter", None),
     ("ianet", "ianet", None),
+    ("udio_test", "udio30,udio120", "test"),     # Udio 决胜局主角
+    ("sunov35dv_test", "sunov35dv", "test"),     # devocal 混淆对照
 ]
 
 
@@ -67,7 +69,8 @@ def main():
     with open(out, mode, newline="") as f:
         w = None
         for jury, tag, split in JURIES:
-            rows = [r for r in rows_idx if r["tag"] == tag and (not split or r["split"] == split)]
+            tags = set(tag.split(","))
+            rows = [r for r in rows_idx if r["tag"] in tags and (not split or r["split"] == split)]
             rng = random.Random(SAMPLE_SEED + hash(jury) % 10000)
             rng.shuffle(rows)
             rows = rows[: args.n]

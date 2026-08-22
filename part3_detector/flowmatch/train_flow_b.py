@@ -46,8 +46,9 @@ class FlowNet(nn.Module):
 
 
 def load_split(latents, tag, split):
+    tags = set(tag.split(","))
     idx = [r for r in csv.DictReader(open(Path(latents) / "index.csv"))
-           if r["tag"] == tag and (not split or r["split"] == split)]
+           if r["tag"] in tags and (not split or r["split"] == split)]
     X = np.stack([np.load(Path(latents) / r["path"]) for r in idx])
     return torch.from_numpy(X)  # (N,T,64)
 
