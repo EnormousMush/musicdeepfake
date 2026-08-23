@@ -35,6 +35,8 @@ JURIES = [
     ("ianet", "ianet", None),
     ("udio_test", "udio30,udio120", "test"),     # Udio 决胜局主角
     ("sunov35dv_test", "sunov35dv", "test"),     # devocal 混淆对照
+    ("fma_dv", "fma_dv", None),                  # 终审主审:devocal 人类
+    ("suno_dv", "suno_dv", None),                # 终审对照:devocal suno(非 udio)
 ]
 
 

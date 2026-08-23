@@ -29,6 +29,9 @@ JOBS = [
     ("udio30",   "devocal_export/manifest.csv", "devocal_export", "udio30_dv", None),
     ("udio120",  "devocal_export/manifest.csv", "devocal_export", "udio120_dv", None),
     ("sunov35dv", "devocal_export/manifest.csv", "devocal_export", "sunov35_dv", None),
+    # 终审(2026-08-23):devocal 桥行——同一把 demucs 刀下的人类与 suno
+    ("fma_dv",  "devocal_export/manifest.csv", "devocal_export", "fma", "test"),
+    ("suno_dv", "devocal_export/manifest.csv", "devocal_export", "suno", "test"),
 ]
 
 
