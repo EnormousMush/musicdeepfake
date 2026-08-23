@@ -37,6 +37,8 @@ JURIES = [
     ("sunov35dv_test", "sunov35dv", "test"),     # devocal 混淆对照
     ("fma_dv", "fma_dv", None),                  # 终审主审:devocal 人类
     ("suno_dv", "suno_dv", None),                # 终审对照:devocal suno(非 udio)
+    ("sunov2dv_test", "sunov2dv", "test"),       # 真凶甄别:SONICS 老版本
+    ("sunov3dv_test", "sunov3dv", "test"),
 ]
 
 

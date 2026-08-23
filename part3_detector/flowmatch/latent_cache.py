@@ -32,6 +32,18 @@ JOBS = [
     # 终审(2026-08-23):devocal 桥行——同一把 demucs 刀下的人类与 suno
     ("fma_dv",  "devocal_export/manifest.csv", "devocal_export", "fma", "test"),
     ("suno_dv", "devocal_export/manifest.csv", "devocal_export", "suno", "test"),
+    # 真凶甄别(2026-08-23):SONICS 出处签名 vs 渲染年代——v2/v3 是判官
+    ("sunov2dv", "devocal_export/manifest.csv", "devocal_export", "sunov2_dv", None),
+    ("sunov3dv", "devocal_export/manifest.csv", "devocal_export", "sunov3_dv", None),
+    # 地图全家福矩阵(2026-08-23):其余全部凑得够数的语料
+    ("acestep_v1",  "crossgen_add_manifest.csv", "crossgen_export", "acestep", None),
+    ("diffrhythm2", "crossgen_add_manifest.csv", "crossgen_export", "diffrhythm2", None),
+    ("dr1",         "add_dr1.csv", "crossgen_export", "dr1", None),
+    ("musicgen",    "crossgen_export/manifest.csv", "crossgen_export", "MusicGen_medium", None),
+    ("audioldm2",   "crossgen_export/manifest.csv", "crossgen_export", "audioldm2", None),
+    ("musicldm",    "crossgen_export/manifest.csv", "crossgen_export", "musicldm", None),
+    ("mustango",    "crossgen_export/manifest.csv", "crossgen_export", "mustango", None),
+    ("stable_audio_open", "crossgen_export/manifest.csv", "crossgen_export", "stable_audio_open", None),
 ]
 
 
