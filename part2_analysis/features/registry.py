@@ -10,18 +10,21 @@
   path — run(path):模块自己解码(H2 两集单模块,无共享收益;key 是历史 11025 口径)
 """
 from .families import spectral, timbral, dynamics, rhythm, quantize, key
-from .families import midwindow, fulltrack
+from .families import midwindow, fulltrack, melody
 
 # (tag, module.run, mode);tag 用于错误列名 f"{tag}_error",与历史 CSV 一致
+_H1_10S = [
+    ("spec", spectral.run, "ctx"),
+    ("timb", timbral.run, "ctx"),
+    ("dyn",  dynamics.run, "ctx"),
+    ("rhy",  rhythm.run, "ctx"),
+    ("qnt",  quantize.run, "ctx"),
+    ("key",  key.run, "path_via_ctx"),   # 拿 ctx 只为取 path(历史 11025 口径自己解码)
+]
 SETS = {
-    "h1_10s": [
-        ("spec", spectral.run, "ctx"),
-        ("timb", timbral.run, "ctx"),
-        ("dyn",  dynamics.run, "ctx"),
-        ("rhy",  rhythm.run, "ctx"),
-        ("qnt",  quantize.run, "ctx"),
-        ("key",  key.run, "path_via_ctx"),   # 拿 ctx 只为取 path(历史 11025 口径自己解码)
-    ],
+    "h1_10s": _H1_10S,                                   # 历史 62 特征,列名与数值冻结
+    "h1_melody": [("mel", melody.run, "ctx")],           # 2026-09-03 扩表:旋律家族单独集
+    "h1_10s_v2": _H1_10S + [("mel", melody.run, "ctx")], # 第一幕 v2 全立方体一次提取用
     "h2_mid":  [("mw", midwindow.run, "path")],
     "h2_full": [("ft", fulltrack.run, "path")],
 }
@@ -29,6 +32,8 @@ SETS = {
 # 输入规格声明(extract.py 开跑前抽样断言;数据初硬性统一从文档变成代码)
 SPEC = {
     "h1_10s":  dict(window_s=10.0, tol=0.2, note="common-spec 10s(16k/mono/LUFS-23;模块内重采 22050)"),
+    "h1_melody": dict(window_s=10.0, tol=0.2, note="common-spec 10s;旋律家族(pyin 于 y_harm)"),
+    "h1_10s_v2": dict(window_s=10.0, tol=0.2, note="common-spec 10s;历史 62 + 旋律家族,一次提取"),
     "h2_mid":  dict(window_s=30.0, tol=0.2, note="h2_export 30s 窗(16k/mono/LUFS-23)"),
     "h2_full": dict(window_s=None, min_s=45.0, note="全长原盘(≥45s;fulltrack 内部 16k 重采,480s 截断)"),
 }
