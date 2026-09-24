@@ -33,3 +33,7 @@ data_store/
 
 # Local runbooks with real server values (never commit)
 *.local.md
+
+# Local-only: audit venv (py3.12) and scratch left by a crashed git op
+.venv_audit/
+_to_delete/
