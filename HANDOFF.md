@@ -137,11 +137,13 @@ HANDOFF.md, README.md, requirements.txt   (root)
 - **`EnormousMush/musicdeepfake` main is PUBLIC** and now has part1/part2/part3 (the part-3 detector
   was merged in via a clean branch). The `reorg-part2` branch (moving preprocessing into Part 2) was
   pushed — **check if it's merged**; if not, open the PR.
-- **The local repo's `main` is an UNRELATED history to GitHub main** (this repo was `git init`'d
-  separately). Sync pattern: cherry-pick local-only commits onto a branch off origin/main, then
-  fast-forward push to main; NEVER force-push. Last synced 2026-07-25 (diagnostics + HANDOFF +
-  README). GitHub main still carries ~520 legacy binaries (old archive plots, a few root mp3/png)
-  that local never tracked — harmless; clean up in a dedicated commit someday.
+- **Since 2026-09-24 local `main` tracks `origin/main` directly** (plain pull/push; NEVER force-push).
+  The old unrelated local history is kept as branch `legacy-local-main`; `batch14-repro-archive` is
+  its content-equivalent tip. GitHub main still carries ~520 legacy binaries under
+  `archive/pre_part_1_testing/` — harmless; clean up in a dedicated commit someday.
+- **Worktrees (one per Cowork channel)**: `~/Developer/frank-suno-exp1` on `exp1/humanness`,
+  `~/Developer/frank-suno-exp2` on `exp2/incremental`, both off `main`. `.venv_audit` (and in exp2
+  `part3_detector/data_store`, `.hfcache`) are symlinks to this checkout. Merge back into `main` here.
 - Docs use **placeholders** (`FUDAN_HOST`/`FUDAN_USER`/`UCHI_*`) so no server creds are public;
   `*.local.md` is gitignored.
 
