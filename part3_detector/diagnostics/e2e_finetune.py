@@ -177,6 +177,21 @@ def main():
              "vs_jam": pick(["suno"], "test") + [r for r in rows if r["source"] == "jamendo" and r["split"] == "test"]}
     run_one("P2_fmaonly", tr, va, tests, args, device)
 
+    # P3b 决胜:留出 suno(与 5 家开源池不共享任何采集管线——FMC 出处混淆的对照;
+    # 冻结特征时代 C3 考出 44.9%≈瞎猜,端到端若仍瞎则跨族失明在 e2e 处存活)
+    def gen_eval(g):
+        rr = [r for r in rows if r["source"] == g]
+        return [r for r in rr if int(hashlib.md5(r["audio_id"].encode()).hexdigest()[:8], 16) % 100 >= 80]
+    pool_all = []
+    ev_all = []
+    for g in GENS:
+        pool_all += gen_pool(g)
+        ev_all += gen_eval(g)
+    tr = pool_all + pick(["fma"], "train")
+    va = ev_all + pick(["fma"], "val")
+    heldout_suno = pick(["suno"], "test") + pick(["fma"], "test")
+    run_one("LOGO_suno", tr, va, {"heldout": heldout_suno}, args, device)
+
     # P3 LOGO
     for G in GENS:
         pool = []
